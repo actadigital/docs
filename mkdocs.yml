@@ -1,1 +1,7 @@
-/home/santi/Dropbox/ActaDigital/mkdocs/mkdocs.yml
+site_name: Acta Digital
+theme: cosmo
+nav:
+  - Altas: alta.md
+  - Problemas conocidos: conocidos.md
+  - Recomendaciones: recomendaciones.md
+
