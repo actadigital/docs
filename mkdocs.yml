@@ -1,5 +1,9 @@
 site_name: Acta Digital
-theme: cosmo
+theme:
+  name: 'material'
+  logo: img/logos/logox.png
+  favicon: img/logos/logox.png
+  language: 'es'
 nav:
   - Altas: alta.md
   - Problemas conocidos: conocidos.md
