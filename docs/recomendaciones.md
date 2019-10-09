@@ -6,7 +6,7 @@ Compartimos algunas sugerencias sobre usos y costumbres que evitarán algunos po
 
 Contar con todos los datos que requiere el Acta, completarlos y corroborarlos en el momento de manera que el Acta quede _lista para ser enviada_.
 
-## Compartir datos desde otro celular
+## Compartir datos desde otro dispositivo
 
 Encontrar la manera de "darle internet" al dispositivo desde otro celular es muy útil para lo siguiente:
 
