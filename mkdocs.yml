@@ -5,6 +5,7 @@ theme:
   favicon: img/logos/logox.png
   language: 'es'
 nav:
+  - Instructivo: instructivo-app.md
   - Altas: alta.md
   - Problemas conocidos: conocidos.md
   - Recomendaciones: recomendaciones.md
