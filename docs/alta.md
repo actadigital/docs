@@ -36,7 +36,10 @@ La aplicación carga unos instantes, y nos muestra la siguiente pantalla:
 1. Siguiendo con el paso anterior, hay que habilitar todos los permisos solicitados:
 
 ![Permisos](img/alta_scalefusion_permisos_highlight.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> c90f5a1fe860bfc1ca32c34569908bd52cb82484
 2. Al seleccionar el primero nos aparece la siguiente pantalla:
 
 ![Permisos](img/alta_scalefusion_permisos1.png)
@@ -80,7 +83,11 @@ Y para finalizar Next:
 ![Permisos](img/alta_scalefusion_permisos12.png)
 
 ### Instalación de la aplicación Acta Digital
+<<<<<<< HEAD
 Continuamos según las capturas:
+=======
+Continuamos siguiendo las siguientes capturas:
+>>>>>>> c90f5a1fe860bfc1ca32c34569908bd52cb82484
 
 ![Setup Scalefusion](img/alta_scalefusion_setup1.png)
 ![Setup Scalefusion](img/alta_scalefusion_setup2.png)
@@ -88,8 +95,12 @@ Continuamos según las capturas:
 Es muy importante seleccionar **Siempre**
 
 ![Setup Scalefusion](img/alta_scalefusion_setup3.png)
+<<<<<<< HEAD
 
 Cuando nos solicite habilitar la ubicación, le damos ACEPTAR:
+=======
+Cuando nos pregunte por los permisos de ubicación, le damos PERMITIR:
+>>>>>>> c90f5a1fe860bfc1ca32c34569908bd52cb82484
 
 ![Setup Scalefusion](img/alta_scalefusion_ubicacion.png)
 
