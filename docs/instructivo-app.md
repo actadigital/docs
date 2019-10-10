@@ -92,6 +92,9 @@ Para guardar el Acta simplemente presione **Guardar Acta**. Si los datos no est�
 
 Con sólo tocar el sensor de huellas es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#visualizacion-de-actas).
 
+!!! info "Importante"
+    Inmediatamente luego de que la huella dactilar es reconocida, en ese momento se guarda la posición. Es decir, las coordenadas obtenidas en ese preciso instante. Con lo cual, es importante **guardar** el Acta _en las cercanías_ del lugar de interés.
+
 ## Envío de Actas
 
 El envío de actas se realiza desde el listado de las mismas. Seleccione las actas que quiere enviar y luego presione el botón **Enviar**. Para seleccionar un Acta, presione unos
@@ -109,7 +112,8 @@ Otra opción de envío es enviar _todas_ las actas pendientes, evitando seleccio
 
 *Presionando __Enviar Actas__, serán enviadas todas las actas en Estado Pendiente.*
 
-> Para realizar el envío de las actas se necesita conexión a Internet. Debemos conectar el dispositivo a una red Wi-Fi.
+!!! info "Conexión a Internet"
+    Para realizar el envío de las actas se necesita conexión a Internet. Debe conectar el dispositivo a una red Wi-Fi (o compartir datos desde otro dispositivo).
 
 ## Uso del dispositivo
 

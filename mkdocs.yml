@@ -9,4 +9,7 @@ nav:
   - Altas: alta.md
   - Problemas conocidos: conocidos.md
   - Recomendaciones: recomendaciones.md
-
+  - Acerca de : acerca.md
+markdown_extensions:
+  - admonition
+  
