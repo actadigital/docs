@@ -20,3 +20,6 @@ Es un **Sistema de Vinculación Electrónica** de actos, por ejemplo, un _acto d
 
 Luego, los aloja en una Base de Datos accesible en _la nube_. Esto facilita su validación, que puede ser automatizada y su accesibilidad para la entidad de control de dichos actos y datos.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KMMLYSjbJVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*Video realizado por el [Colegio de Profesionales de la Agrimensura de la Provincia de Santa Fe - Distrito Sur](http://copa.org.ar/)*
