@@ -12,15 +12,16 @@ Encendemos el celular utilizando el pin **1234**. Veremos la siguiente pantalla:
 Debemos conectarnos a una red Wi-Fi con Internet. Procedemos como en cualquier celular convencional.
 
 ###  Alta de la licencia
-1. Abrimos la aplicación Scalefusion
+
+- Abrimos la aplicación Scalefusion
 
 ![Aplicación Scalefusion](img/alta_home_scalefusion.png)
 
-2. Presionamos **Enroll** 
+- Presionamos **Enroll** 
 
 ![Enroll](img/alta_scalefusion_enroll.png)
 
-3. Presionamos **Autologin** y luego PERMITIR en aquellos carteles que nos soliciten permisos.
+- Presionamos **Autologin** y luego PERMITIR en aquellos carteles que nos soliciten permisos.
 
 ![Autologin](img/alta_scalefusion_autologin.png)
 ![Permitir](img/alta_scalefusion_permitir1.png)
@@ -33,11 +34,11 @@ La aplicación carga unos instantes, y nos muestra la siguiente pantalla:
  
 ### Configuración de permisos
 
-1. Siguiendo con el paso anterior, hay que habilitar todos los permisos solicitados:
+- Siguiendo con el paso anterior, hay que habilitar todos los permisos solicitados:
 
 ![Permisos](img/alta_scalefusion_permisos_highlight.png)
 
-2. Al seleccionar el primero nos aparece la siguiente pantalla:
+- Al seleccionar el primero nos aparece la siguiente pantalla:
 
 ![Permisos](img/alta_scalefusion_permisos1.png)
 
@@ -45,7 +46,7 @@ Bajamos y seleccionamos Activar:
 
 ![Permisos](img/alta_scalefusion_permisos2.png)
 
-3. En el segundo de los permisos:
+- En el segundo de los permisos:
 
 ![Permisos](img/alta_scalefusion_permisos_highlight.png)
 
@@ -55,14 +56,14 @@ Nos aparece la siguiente pantalla:
 
 Seleccionamos Scalefusion y habilitamos el permiso.
 
-4. Procedemos con los siguientes permisos según las capturas:
+- Procedemos con los siguientes permisos según las capturas:
 
 ![Permisos](img/alta_scalefusion_permisos4.png)
 ![Permisos](img/alta_scalefusion_permisos5.png)
 ![Permisos](img/alta_scalefusion_permisos6.png)
 ![Permisos](img/alta_scalefusion_permisos7.png)
 
-5. Para finalizar con los permisos seleccionamos Next:
+- Para finalizar con los permisos seleccionamos Next:
 
 ![Permisos](img/alta_scalefusion_permisos8.png)
 
