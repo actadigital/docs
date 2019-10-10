@@ -4,12 +4,18 @@ theme:
   logo: img/logos/logox.png
   favicon: img/logos/logox.png
   language: 'es'
+  feature:
+    tabs: false
 nav:
-  - Instructivo: instructivo-app.md
-  - Altas: alta.md
-  - Problemas conocidos: conocidos.md
+  - Instructivos:
+    - App Acta Digital: instructivo-app.md
+    - Alta Dispositivo: instructivo-alta-dispositivo.md
+    - Alta Profesional: instructivo-alta-persona.md
+    - Control de Actas: instructivo-control.md
+  - Preguntas Frecuentes: preguntas-frecuentes.md
   - Recomendaciones: recomendaciones.md
-  - Acerca de : acerca.md
+  - Acerca de: acerca.md
 markdown_extensions:
   - admonition
-  
+  - toc:
+      permalink: true
