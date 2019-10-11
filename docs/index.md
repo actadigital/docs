@@ -1,6 +1,6 @@
 [![Acta Digital](img/logos/logo.png)](https://actadigital.github.io)
 
-Este sitio concentra toda la documentación de ayuda para usuarios finales (profesionales) y administradores (colegios) del sistema de **Vinculación Electrónica** y todas sus partes.
+Este sitio concentra toda la documentación de ayuda para usuarios finales (profesionales) y entidades de control (colegios) del sistema de **Vinculación Electrónica** y todas sus partes.
 
 Recorra la tabla de contenidos o utilice la herramienta de búsqueda para encontrar la solución adecuada a su problema.
 
