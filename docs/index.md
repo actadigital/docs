@@ -1,4 +1,4 @@
-[![Acta Digital](img/logos/logo.png)](https://actadigital.github.io)
+[![Acta Digital](img/logos/logo.png){: style="height:150px"}](https://actadigital.github.io)
 
 Este sitio concentra toda la documentación de ayuda para usuarios finales (profesionales) y entidades de control (colegios) del sistema de **Vinculación Electrónica** y todas sus partes.
 

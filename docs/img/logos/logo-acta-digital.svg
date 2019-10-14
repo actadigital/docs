@@ -1,0 +1,45 @@
+<svg id="Grupo_1_copia_2" data-name="Grupo 1 copia 2" xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #aa2c00;
+      }
+
+      .cls-2 {
+        fill: #211915;
+        opacity: 0.23;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #c4c4c4;
+      }
+
+      .cls-5 {
+        fill: #ebd017;
+      }
+    </style>
+  </defs>
+  <circle id="Forma_1_copia" data-name="Forma 1 copia" class="cls-1" cx="96.016" cy="96.047" r="96.016"/>
+  <path id="Forma_7" data-name="Forma 7" class="cls-2" d="M98,97l66-25s15.4,24.352,26.267,42.443a96.05,96.05,0,0,1-94.257,77.62c-7.007,0-20.42-2.176-20.42-2.176L49,150Z"/>
+  <path id="Forma_6" data-name="Forma 6" class="cls-3" d="M68.84,32h40a27,27,0,0,1,27,27v74a27,27,0,0,1-27,27h-40a27,27,0,0,1-27-27V59Z"/>
+  <rect id="Rectángulo_redondeado_1" data-name="Rectángulo redondeado 1" class="cls-4" x="55" y="67" width="45" height="9" rx="4.5" ry="4.5"/>
+  <rect id="Rectángulo_redondeado_1_copia" data-name="Rectángulo redondeado 1 copia" class="cls-4" x="55" y="86" width="45" height="9" rx="4.5" ry="4.5"/>
+  <rect id="Rectángulo_redondeado_1_copia_2" data-name="Rectángulo redondeado 1 copia 2" class="cls-4" x="55" y="104" width="45" height="9" rx="4.5" ry="4.5"/>
+  <rect id="Rectángulo_redondeado_1_copia_3" data-name="Rectángulo redondeado 1 copia 3" class="cls-4" x="55" y="123" width="69" height="9" rx="4.5" ry="4.5"/>
+  <path id="Forma_4_copia_2" data-name="Forma 4 copia 2" class="cls-5" d="M156.746,93.462H146.225l0.008,23.35-10.924-8.864-11.669,8.864-0.057-23.35h-9.71V80.9l-8.88-8.879,8.88-8.879V50.588H126.43l8.879-8.879,8.88,8.879h12.557V63.146l8.879,8.879L156.746,80.9V93.462Z"/>
+</svg>

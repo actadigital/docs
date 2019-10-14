@@ -10,4 +10,4 @@ A partir de la idea y el encargo del [**Colegio de Profesionales de la Agrimensu
 
 Escríbanos a nuestro [correo electrónico](mailto:info@actadigital.com.ar).
 
-![Acta Digital](img/logos/logo.png)
+[![Acta Digital](img/logos/logo.png){: style="height:150px"}](https://actadigital.github.io)

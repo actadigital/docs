@@ -1,12 +1,13 @@
 site_name: Acta Digital
 theme:
   name: 'material'
-  logo: img/logos/logox.png
-  favicon: img/logos/logox.png
+  logo: img/logos/logo-acta-digital.svg
+  favicon: img/logos/logo-acta-digital.svg
   language: 'es'
   feature:
     tabs: false
 nav:
+  - Inicio: index.md
   - Instructivos:
     - App Acta Digital: instructivo-app.md
     - Alta Dispositivo: instructivo-alta-dispositivo.md
@@ -19,3 +20,4 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - extra
