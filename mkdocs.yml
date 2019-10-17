@@ -9,10 +9,12 @@ theme:
 nav:
   - Inicio: index.md
   - Instructivos:
-    - App Acta Digital: instructivo-app.md
-    - Alta Dispositivo: instructivo-alta-dispositivo.md
-    - Alta Profesional: instructivo-alta-persona.md
-    - Control de Actas: instructivo-control.md
+    - Personas:
+      - App Acta Digital: instructivo-app.md
+    - Entidades:
+      - Alta Dispositivo: instructivo-alta-dispositivo.md
+      - Alta Persona: instructivo-alta-persona.md
+      - Control de Actas: instructivo-control.md
   - Preguntas Frecuentes: preguntas-frecuentes.md
   - Recomendaciones: recomendaciones.md
   - Acerca de: acerca.md
