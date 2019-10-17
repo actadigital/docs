@@ -25,7 +25,8 @@ Luego presionar en **AUTENTICAR** y aguardar unos instantes. Aparecerán en pant
 
 En pantalla de inicio del dispositivo aparece un _número identificador_, en el sector superior izquierdo. En la imagen de ejemplo es el __*0255*__.
 
-Una vez configurado el dispositivo, anotar dicho número en la columna *id celular*, junto a los datos de E-mail y contraseña del listado provisto.
+!!! info "IMPORTANTE"
+    Una vez configurado el dispositivo, anotar dicho número en la columna *id celular*, junto a los datos de E-mail y contraseña del listado provisto. **Estos datos serán importantes para la administración general del sistema**
 
 ![Acta Digital](img/alta_actadigital_4.png)
 
