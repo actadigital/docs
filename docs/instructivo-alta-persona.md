@@ -7,14 +7,21 @@ Abrimos la aplicación y presionamos los 3 puntitos ubicados en la esquina super
 
 ![Profesional1](img/alta_profesional1.png)
 
-## Asociamos el celular al profesional
-Completamos los campos E-mail y Contraseña.
+## Asociamos el dispositivo al profesional
+Completamos los campos E-mail y Contraseña correspondientes al profesional.
 
 ![Profesional2](img/alta_profesional2.png)
 
-Empleamos los datos correspondientes al profesional al que se le hará entrega del dispositivo. Luego presionamos en **AUTENTICAR**, aguardamos unos instantes y nos aparecerán en pantalla los datos del profesional.
+Luego presionamos en **AUTENTICAR**, aguardamos unos instantes y nos aparecerán en pantalla los datos del profesional.
 
 ![Profesional3](img/alta_profesional3.png)
 
+## Guardar el identificador del dispositivo
+En pantalla de inicio del dispositivo vemos un número identificador, en el sector superior izquierdo. 
+
+![Acta Digital](img/alta_actadigital_4.png)
+
+Anotar dicho número en la planilla entregada con el listado de emails y contraseñas, en la columna *id celular*.
+
 ## Registrar la huella dactilar del profesional
-Para finalizar el proceso debemos registrar en el dispositivo las huellas dactilares del profesional. Se recomienda registrar el dedo índice de ambas manos.  
+Para finalizar el proceso debemos registrar en el dispositivo las huellas dactilares del profesional. Para ello, en la pantalla de inicio del dispositivo (donde vemos el icono de Acta Digital) presionamos los 3 puntitos de la esquina superior derecha y seleccionamos Settings. Ingresamos el codigo de seguridad asignado. Buscamos la opción Open system settings y luego Seguridad. Allí encontraremos las opciones para agregar huellas. Los toques en el sensor (que está en la parte posterior del dispositivo) deben ser suaves y repetidos. Se recomienda registrar el dedo índice de cada mano.
