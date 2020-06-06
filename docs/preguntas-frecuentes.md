@@ -54,3 +54,25 @@ Para acceder a internet, puede hacerlo conectándose a una red wi-fi o [comparti
 Algunos dispositivos de la marca FiGO han sufrido este problema. La pantalla pierde _calibración_. Es decir, cuando se presiona sobre un punto de la misma, el dispositivo lo toma en otro. Esto ocasiona que cuando se quiere presionar un botón, se termina presionando otro y todo redunda en un mal funcionamiento.
 
 Por ahora no existe otra solución que el **cambio del dispositivo por uno nuevo**. Para ello, por favor comunicarse con la entidad que se lo entregó para disparar el protocolo de cambio.
+
+## Problemas con la batería
+
+Algunos dispositivos de la marca FiGO han sufrido problemas con la batería:
+
+- poca durabilidad
+- se apaga de repente
+- nunca llega a cargarse al 100%
+
+Todos estos indicadores se refieren a una **batería _descalibrada_**.
+
+Si la batería está mal calibrada, es posible que el dispositivo esté mostrando porcentajes erróneos y termine apagándose inesperadamente. Además, también puede ser las distintas componentes de hardware y software se vean afectadas en su normal funcionamiento.
+
+### Calibración de la batería
+
+Un método general que se aplicar con cualquier dispositivo independientemente de su marca es el siguiente:
+
+1. Cargar la batería por completo. Enchufar y esperar hasta que el indicador de la batería cargue al 100% (aunque si está descalibrada, puede pasar que se quede en un número menor). No desenchufar inmediatamente cuando alcance ese tope de carga, sino dejarlo un poco más para asegurarse de que si está descalibrada no afecte al límite superior de la carga.
+2. Descargar la batería por completo. No importa cómo, el objetivo es descargarlo por completo forzando que se apague solo. Por ejemplo, subir el brillo al máximo.
+3. Dejar reposar al menos 4 horas antes de ponerlo a cargar nuevamente. La batería puede tener un exceso residual de carga que provoca el descalibrado, y durante estas horas de reposo cuando la batería queda descargada por completo, este exceso debería ser liberado por la propia batería.
+4. Volver a cargar al 100% de carga y luego dejarlo un rato más para asegurarte de que se quede totalmente cargado.
+5. Ya debería estar calibrado y se debería poder utilizar sin problemas. Este proceso puede repetirse si el problema vuelve a surgir algún tiempo después.
