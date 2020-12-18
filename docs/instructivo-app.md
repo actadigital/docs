@@ -73,7 +73,8 @@ Campos a completar:
 
 - **Partida de Impuesto Inmobiliario** _(obligatorio)_: Número completo de PII. A medida que se ingresan los números, la aplicación va dando el formato apropiado y calcula el dígito de control de API. El dígito de control se muestra a la derecha del número de PII y no debe ingresarse. Se recomienda verificar que sea correcto.
 
-    **_Importante_**: Si la PII se ingresa incorrectamente, **NO** funcionará el control automático de calidad de la misma y puede ocasionar el rechazo d ela misma de parte de las entidades controladoras.
+!!! info "Importante"
+    Si la PII se ingresa incorrectamente, **NO** funcionará el control automático de calidad de la misma y puede ocasionar el rechazo de la misma de parte de las entidades controladoras.
 
 - **Comitente** _(obligatorio)_: Nombre y apellido del comitente.
 - **Ocupante** _(obligatorio)_: Nombre y apellido del ocupante, si existe.
@@ -82,7 +83,8 @@ Campos a completar:
 
 La ubicación (coordenadas latitud y longitud) se obtiene automáticamente y es inmodificable. Mientras ese campo esté vacío, se debe aguardar hasta que la aplicación las obtenga; mientras tanto pueden completarse los restantes datos del Acta.
 
-**_Importante_**: La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](recomendaciones.md) para hacer un mejor uso de la aplicación. 
+!!! warning "Importante"
+    La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](recomendaciones.md) para hacer un mejor uso de la aplicación. 
 
 ### Guardar Acta
 
@@ -92,7 +94,7 @@ Para guardar el Acta simplemente presione **Guardar Acta**. Si los datos no est�
 
 Con sólo tocar el sensor de huellas es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#visualizacion-de-actas).
 
-!!! info "Importante"
+!!! success "Importante"
     Inmediatamente luego de que la huella dactilar es reconocida, en ese momento se guarda la posición. Es decir, las coordenadas obtenidas en ese preciso instante. Con lo cual, es importante **guardar** el Acta _en las cercanías_ del lugar de interés.
 
 ## Envío de Actas
