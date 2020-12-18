@@ -1,5 +1,8 @@
 # Instructivo para **Alta de un dispositivo**
 
+!!! danger "ATENCIÓN"
+    Últimamente este procedimiento sufrió cambios y el instructivo está **DESACTUALIZADO**. Estamos trabajando para que esté disponible próximamente.
+
 A continuación se detallan los pasos a seguir para **habilitar una licencia** en un celular. El alta de un nuevo celular implica instalar las aplicaciones necesarias para que el sistema funcione.
 
 ##  Iniciar el celular
