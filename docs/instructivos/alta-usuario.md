@@ -3,13 +3,13 @@
 !!! danger "ATENCIÓN"
     Últimamente este procedimiento sufrió cambios y el instructivo está **DESACTUALIZADO**. Estamos trabajando para que esté disponible próximamente.
 
-A continuación se detallan los pasos a seguir para **asociar un dispositivo a una persona** (profesional responsable). El alta de un nuevo profesional implica configurar el dispositivo con los datos de esa persona, incluyendo el registro de su huella dactilar. Para realizar este instructivo es necesario estar conectados a una red Wi-Fi ([Conexión a redes Wi-Fi](instructivo-app.md#conexion-a-redes-wi-fi))
+A continuación se detallan los pasos a seguir para **asociar un dispositivo a una persona** (profesional responsable). El alta de un nuevo profesional implica configurar el dispositivo con los datos de esa persona, incluyendo el registro de su huella dactilar. Para realizar este instructivo es necesario estar conectados a una red Wi-Fi ([Conexión a redes Wi-Fi](/instructivos/app/#conexion-a-redes-wi-fi))
 
 ## Abrir la aplicación **Acta Digital**
 
 Abrir la aplicación y presionar en el menú contextual (los 3 puntitos ubicados en la esquina superior derecha). Seleccionar en la opción **Profesional Asociado**.
 
-![Profesional1](img/alta_profesional1.png)
+![Profesional1](/img/alta_profesional1.png)
 
 ## Asociar el dispositivo al profesional
 
@@ -18,11 +18,11 @@ Completar los campos _E-mail_ y _Contraseña_ correspondientes a la persona resp
 !!! warning "Importante"
     El campo E-mail no se refieren a un correo personal del usuario, sino a un dato generado por sistema. Por eso, **estos datos serán provistos previamente**.
 
-![Profesional2](img/alta_profesional2.png)
+![Profesional2](/img/alta_profesional2.png)
 
 Luego presionar en **AUTENTICAR** y aguardar unos instantes. Aparecerán en pantalla los datos de la persona.
 
-![Profesional3](img/alta_profesional3.png)
+![Profesional3](/img/alta_profesional3.png)
 
 ## Guardar el identificador del dispositivo
 
@@ -31,7 +31,7 @@ En pantalla de inicio del dispositivo aparece un _número identificador_, en el 
 !!! info "IMPORTANTE"
     Una vez configurado el dispositivo, anotar dicho número en la columna *id celular*, junto a los datos de E-mail y contraseña del listado provisto. **Estos datos serán importantes para la administración general del sistema**
 
-![Acta Digital](img/alta_actadigital_4.png)
+![Acta Digital](/img/alta_actadigital_4.png)
 
 ## Registrar la huella dactilar del profesional
 

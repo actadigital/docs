@@ -1,22 +1,50 @@
 site_name: Acta Digital
+site_url: http://ayuda.actadigital.com.ar/
 theme:
-  name: 'material'
-  logo: img/logos/logo-acta-digital.svg
-  favicon: img/logos/logo-acta-digital.svg
-  language: 'es'
+  name: "material"
+  logo: /img/logos/logo-acta-digital.svg
+  favicon: /img/logos/logo-acta-digital.svg
+  language: "es"
   feature:
     tabs: false
+  font:
+    text: Roboto
+  palette:
+    - scheme: default
+      primary: red
+      accent: yellow
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a Modo Oscuro
+    - scheme: slate
+      primary: red
+      accent: yellow
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a Modo Claro
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
 nav:
   - Inicio: index.md
+  - El Sistema: sistema.md
   - Instructivos:
-    - Personas:
-      - App Acta Digital: instructivo-app.md
-    - Entidades:
-      - Alta Dispositivo: instructivo-alta-dispositivo.md
-      - Alta Persona: instructivo-alta-persona.md
-      - Control de Actas: instructivo-control.md
-  - Preguntas Frecuentes: preguntas-frecuentes.md
-  - Recomendaciones: recomendaciones.md
+      - App Acta Digital: instructivos/app.md
+      - Mis Actas: instructivos/mis-actas.md
+      - Entidades:
+          - Alta Dispositivo PDM: instructivos/alta-dispositivo-pdm.md
+          - Alta Dispositivo Token: instructivos/alta-dispositivo-token.md
+          - Alta Usuario: instructivos/alta-usuario.md
+          - Control de Actas: instructivos/control.md
+  - Preguntas Frecuentes:
+      - App Acta Digital: preguntas-frecuentes/preguntas-frecuentes.md
+      - Recomendaciones: preguntas-frecuentes/recomendaciones.md
+      - Mis Actas: preguntas-frecuentes/mis-actas.md
+      - Experiencia en Campo: preguntas-frecuentes/experiencia-en-campo.md
   - Acerca de: acerca.md
 markdown_extensions:
   - admonition

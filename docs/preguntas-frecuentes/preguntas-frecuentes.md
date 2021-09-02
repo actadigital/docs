@@ -4,7 +4,7 @@ Aquí dejamos un listado de preguntas frecuentes y la solución a algunos proble
 
 Algunos casos se refieren a un modelos de dispositivo en particular (FiGO, nova, doogee, Blü). Los mismos serán señalados.
 
-Para mayor información, también está disponible el [Instructivo de la aplicación **Acta Digital**](instructivo-app.md) y siempre puede contactarnos a nuestro [correo electrónico](mailto:info@actadigital.com.ar) o a través de la entidad que le haya suministrado el dispositivo.
+Para mayor información, también está disponible el [Instructivo de la aplicación **Acta Digital**](/instructivos/app.md) y siempre puede contactarnos a nuestro [correo electrónico](mailto:info@actadigital.com.ar) o a través de la entidad que le haya suministrado el dispositivo.
 
 ## PIN de desbloqueo 
 
@@ -37,8 +37,8 @@ Una buena alternativa en casos complicados es **acceder a internet compartiendo 
 
 Para ver las redes wi-fi disponibles y conectarse a una de ellas, ingrese al menú **Wi-Fi Connection** desde la esquina superior derecha de la pantalla inicial. Luego, en la pantalla **Wi-Fi Settings** active el _Switch Wifi_.
 
-![Menú Wi-Fi Connection](img/wifi_menu.jpg)
-![Switch Wifi](img/wifi_switch.jpg)
+![Menú Wi-Fi Connection](/img/wifi_menu.jpg)
+![Switch Wifi](/img/wifi_switch.jpg)
 
 ## Fecha y hora
 

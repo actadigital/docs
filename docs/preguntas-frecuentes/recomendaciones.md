@@ -26,19 +26,19 @@ A partir del momento del envío, la misma se encontrará siempre disponible en l
 
 Si tiene acceso a internet (a través de datos compartidos), podrá inmediantamente verficar la ubicación del Acta desde la app. Ingresando al Acta recién realizada, y luego presionando sobre la _lupa_ que se encuentra cerca de las coordenadas.
 
-![Ubicación de un Acta](img/acta_ubicacion.png "Ubicación de un Acta")
+![Ubicación de un Acta](/img/acta_ubicacion.png "Ubicación de un Acta")
 
 Entonces podrá observar la ubicación georreferenciada del Acta realizada. Aquí dos ejemplos.
 
-![Acta Rural](img/acta_ubicacion-rural.png "Acta Rural") *Acta Rural*
-![Acta Urbana](img/acta_ubicacion-urbana.png "Acta Urbana") *Acta Urbana*
+![Acta Rural](/img/acta_ubicacion-rural.png "Acta Rural") *Acta Rural*
+![Acta Urbana](/img/acta_ubicacion-urbana.png "Acta Urbana") *Acta Urbana*
 
 ## Conseguir cargador portátil
 
 Una buena costumbre es contar con un cargador de batería portátil y/o compatible para su vehículo. Quizás también sea útil para otros dispositivos. De esta forma, siempre podrá recargar el dispositivo en campo, en el caso de que se haya quedado sin batería. Pero además, esto posibilitaría **dejarlo siempre en el mismo lugar**, sea su vehículo, el estuche de algún instrumental, etc., reduciendo el riesgo de perderlo.
 
-![Cargador portátil](img/cargador_portatil.png "Cargador portátil") *Cargador portátil*
-![Cargador vehículo](img/cargador_vehiculo.png "Cargador para vehículo") *Cargador para vehículo*
+![Cargador portátil](/img/cargador_portatil.png "Cargador portátil") *Cargador portátil*
+![Cargador vehículo](/img/cargador_vehiculo.png "Cargador para vehículo") *Cargador para vehículo*
 
 # Resumen
 

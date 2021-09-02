@@ -45,11 +45,11 @@ Eventualmente, un Acta puede ser anulada. En este caso pasa al estado **Anulada*
 
 Inicialmente el listado de actas se encuentra vacío. A medida que se van creando actas, éstas se muestran listadas en la pantalla inicial de la aplicación.
 
-![Listado de Actas](img/acta_listado.png)
+![Listado de Actas](/img/acta_listado.png)
 
 Cada ítem del listado muestra el número identifocador del Acta, el ícono que representa su estado, y el comitente del Acto. Si presiona sobre un Acta podrá ver más información acerca de la misma.
 
-![Detalle de un Acta](img/acta_detalle.png)
+![Detalle de un Acta](/img/acta_detalle.png)
 
 En la pantalla de detalles se ven los datos que contiene el Acta Digital. A la derecha de las coordenadas, la aplicación presenta un botón (una lupa) para que, en caso de contar con conexión a Internet, se pueda ver sobre un mapa de Google Maps la ubicación de las coordenadas donde fue realizada el Acta.
 
@@ -60,7 +60,7 @@ En la esquina inferior derecha se encuentra el botón de Creación de actas. En 
 La creación de Actas se accede desde el listado de actas, con el botón que se ubica en la parte
 inferior derecha de la pantalla. Al presionarlo se abre la siguiente pantalla:
 
-![Nueva Acta](img/acta_nueva.png)
+![Nueva Acta](/img/acta_nueva.png)
 
 Los pasos son:
 
@@ -84,13 +84,13 @@ Campos a completar:
 La ubicación (coordenadas latitud y longitud) se obtiene automáticamente y es inmodificable. Mientras ese campo esté vacío, se debe aguardar hasta que la aplicación las obtenga; mientras tanto pueden completarse los restantes datos del Acta.
 
 !!! warning "Importante"
-    La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](recomendaciones.md) para hacer un mejor uso de la aplicación. 
+    La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](/preguntas-frecuentes/recomendaciones/) para hacer un mejor uso de la aplicación. 
 
 ### Guardar Acta
 
 Para guardar el Acta simplemente presione **Guardar Acta**. Si los datos no están completos, la aplicación resalta aquellos campos obligatorios o inválidos. Si todo está bien, al presionar **Guardar Acta**, la aplicación solicita el ingreso de la huella dactilar de la persona asociada a ese dispositivo.
 
-![Solicitud de Huella Dactilar](img/acta_solicitud-huella.png)
+![Solicitud de Huella Dactilar](/img/acta_solicitud-huella.png)
 
 Con sólo tocar el sensor de huellas es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#visualizacion-de-actas).
 
@@ -102,7 +102,7 @@ Con sólo tocar el sensor de huellas es suficiente. Una vez reconocida la huella
 El envío de actas se realiza desde el listado de las mismas. Seleccione las actas que quiere enviar y luego presione el botón **Enviar**. Para seleccionar un Acta, presione unos
 segundos sobre la misma.
 
-![Seleccionar Actas para enviar](img/acta_enviar.png)
+![Seleccionar Actas para enviar](/img/acta_enviar.png)
 
 *Aquí pueden verse seleccionadas las actas número 2 y 3, y el botón __Enviar__.*
 
@@ -110,7 +110,7 @@ La aplicación solicitará que confirme la operación. Es importante remarcar qu
 
 Otra opción de envío es enviar _todas_ las actas pendientes, evitando seleccionar una por una. Para ello, no habiendo seleccionado ningún Acta, presione el botón **Enviar actas** ubicado en el menú superior del listado de actas.
 
-![Enviar todas la Actas Pendientes](img/acta_enviar-todas.png)
+![Enviar todas la Actas Pendientes](/img/acta_enviar-todas.png)
 
 *Presionando __Enviar Actas__, serán enviadas todas las actas en Estado Pendiente.*
 
@@ -127,5 +127,5 @@ El dispositivo suele tener configurado un PIN por defecto que siempre es **1234*
 
 Para ver las redes wi-fi disponibles y conectarse a una de ellas, ingrese al menú **Wi-Fi Connection** desde la esquina superior derecha de la pantalla inicial. Luego, en la pantalla **Wi-Fi Settings** active el _Switch Wifi_.
 
-![Menú Wi-Fi Connection](img/wifi_menu.jpg)
-![Switch Wifi](img/wifi_switch.jpg)
+![Menú Wi-Fi Connection](/img/wifi_menu.jpg)
+![Switch Wifi](/img/wifi_switch.jpg)
