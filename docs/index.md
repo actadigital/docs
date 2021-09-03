@@ -10,7 +10,7 @@ Si la documentación no alcanza, siempre puede encontrarnos en nuestro [correo e
 
 **ACTA DIGITAL** es un **Sistema de Certificación Digital de actos**.
 
-Permite que una **_Entidad de Control_** puede certificar **_quién_**, **_dónde_** y **_cuándo_** realizó un determinado acto.
+Permite que una **_Entidad de Control_** pueda certificar **_quién_**, **_dónde_** y **_cuándo_** realizó un determinado acto.
 
 ![Sistema de Vinculación Electrónica - Acta Digital](/img/sistema.png)
 

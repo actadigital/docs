@@ -1,131 +1,105 @@
 # Instructivo de la aplicación **Acta Digital**
 
 ## Introducción
+La aplicación Acta Digital se ejecuta sobre un celular, y es la encargada de generar actas digitales sobre determinados actos. Un acta digital se conforma principalmente por:
 
-La aplicación Acta Digital es parte del sistema de **Vinculación Electrónica** de actos. Tiene la finalidad de generar y administrar Actas Digitales desde el celular. Básicamente su funcionalidad es relacionar los siguientes datos a cada acto:
+- Identidad de la persona responsable
+- Ubicación geográfica
+- Fecha y hora
 
-- identidad de la persona responsable
-- ubicación geográfica
-- fecha y hora
+Para utilizar la aplicación se necesita un usuario y una contraseña, de modo que las acciones son registradas bajo el nombre y responsabilidad de la persona asociada a dicho usuario.
 
-En el caso de, por ejemplo, los agrimensores, dichos actos son _actos de levantamiento parcelario_.
+En los siguientes apartados se describen las principales funcionalidades y se detallan las instrucciones de uso.
 
-Para ello, cada persona tiene asignada un dispositivo y las acciones que realice con la aplicación Acta Digital son registradas bajo su nombre y responsabilidad.
+## Inicio de sesión
+Cuando abrimos la aplicación por primera vez, debemos iniciar sesión con usuario y contraseña. En los sucesivos ingresos, este paso no será necesario. 
+Las _Entidades de control_ son las encargadas de gestionar y distribuir las credenciales de acceso a la aplicación y al sistema Acta Digital.
 
-En los siguientes apartados se describen las principales funcionalidades y se detallan las
-instrucciones de uso.
-
-### ¿En qué consiste un Acta Digital?
-
-En el caso de los **profesionales de la agrimensura**, un Acta Digital está compuesta por una serie de datos que hacen referencia a un **acto de levantamiento parcelario**. Los datos son:
-
-- Identificador de parcela (número de partida de impuesto inmobiliario)
-- Datos de persona comitente del acto (nombre y apellido)
-- Datos de persona ocupante de la parcela (nombre y apellido y calidad de ocupación)
-- Observaciones
-- Fecha y hora del acto
-- Ubicación geográfica del acto (coordenadas latitud y longitud)
-- Identidad de la persona responsable del acto (huella dactilar)
-
-#### Estados de un Acta Digital
-
-Un Acta Digital puede encontrarse en uno de estos tres estados:
-
-- Pendiente de envío
-- Enviada
-- Anulada
-
-El estado **Pendiente** se representa con un ícono de reloj de arena. Un acta se encuentra en estado Pendiente cuando ha sido realizada pero aún no ha sido enviada. Esto significa que el Acta se encuentra alojada sólo en el dispositivo.
-
-Para representar el estado **Enviada** visualmente se emplea un ícono de flecha. Un Acta pasa al estado Enviada cuando ha sido enviada exitosamente. Esto es, pasó a alojarse en la nube para que las entidades interesadas puedan acceder a ella y además Ud. ha recibido una copia al correo electrónico asignado previamente para ello.
-
-Eventualmente, un Acta puede ser anulada. En este caso pasa al estado **Anulada**. Las actas anuladas no pueden enviarse ni editarse.
-
-## Visualización de Actas
-
-Inicialmente el listado de actas se encuentra vacío. A medida que se van creando actas, éstas se muestran listadas en la pantalla inicial de la aplicación.
+## Pantalla de inicio
+Podemos observar el listado de actas realizadas. Inicialmente se encuentra vacío. Cada ítem del listado muestra el número identificador del acta, el icono que representa su estado, y algún dato adicional. Presionando sobre un acta podemos ver los [detalles](#detalles-de-un-acta) de la misma.
 
 ![Listado de Actas](/img/acta_listado.png)
 
-Cada ítem del listado muestra el número identifocador del Acta, el ícono que representa su estado, y el comitente del Acto. Si presiona sobre un Acta podrá ver más información acerca de la misma.
+En la parte superior derecha podemos ver las acciones disponibles, mientras que en la esquina inferior derecha vemos el botón **+**, para generar un nuevo acta.
+En las siguientes secciones se detalla la funcionalidad de cada acción.
 
-![Detalle de un Acta](/img/acta_detalle.png)
-
-En la pantalla de detalles se ven los datos que contiene el Acta Digital. A la derecha de las coordenadas, la aplicación presenta un botón (una lupa) para que, en caso de contar con conexión a Internet, se pueda ver sobre un mapa de Google Maps la ubicación de las coordenadas donde fue realizada el Acta.
-
-En la esquina inferior derecha se encuentra el botón de Creación de actas. En la siguiente sección se detalla esta funcionalidad.
-
-## Creación de nueva Acta
-
-La creación de Actas se accede desde el listado de actas, con el botón que se ubica en la parte
-inferior derecha de la pantalla. Al presionarlo se abre la siguiente pantalla:
+## Generación de un nuevo acta
+La generación de un nuevo acta se accede desde la pantalla de inicio (listado de actas), con el botón **+** ubicado en la parte
+inferior derecha. Al presionarlo se abre la siguiente pantalla:
 
 ![Nueva Acta](/img/acta_nueva.png)
 
-Los pasos son:
+Los pasos a seguir son:
 
-- Completar datos del Acta
-- Guardar Acta
+- Completar datos del acta
+- Controlar datos de ubicación
+- Guardar
 
-### Completar datos del Acta
-
-Campos a completar:
-
+### Completar datos del acta
 - **Partida de Impuesto Inmobiliario** _(obligatorio)_: Número completo de PII. A medida que se ingresan los números, la aplicación va dando el formato apropiado y calcula el dígito de control de API. El dígito de control se muestra a la derecha del número de PII y no debe ingresarse. Se recomienda verificar que sea correcto.
 
-!!! info "Importante"
-    Si la PII se ingresa incorrectamente, **NO** funcionará el control automático de calidad de la misma y puede ocasionar el rechazo de la misma de parte de las entidades controladoras.
-
 - **Comitente** _(obligatorio)_: Nombre y apellido del comitente.
-- **Ocupante** _(obligatorio)_: Nombre y apellido del ocupante, si existe.
-- **Calidad de ocupación**: En este campo se despliegan opciones predeterminadas por Catastro. Selecciona la adecuada al caso. En su defecto, podrá seleccionar "Otro" y detalle en el cmapo Observaciones.
-- **Nota u observación**: Cualquier aclaración que crea adecuada.
+- **Ocupante** _(obligatorio)_: Nombre y apellido del ocupante, si lo hay.
+- **Calidad de ocupación**: Seleccionar una de las opciones. En caso de no corresponder ninguna, podrá seleccionar _Otro_ y detallar en _Nota u observación_.
+- **Nota u observación**: Cualquier aclaración que crea pertinente.
 
-La ubicación (coordenadas latitud y longitud) se obtiene automáticamente y es inmodificable. Mientras ese campo esté vacío, se debe aguardar hasta que la aplicación las obtenga; mientras tanto pueden completarse los restantes datos del Acta.
+La **ubicación geográfica** (latitud y longitud) es obtenida automáticamente. Mientras la aplicación resuelve la ubicación veremos la leyenda _Buscando coordenadas_
+Hasta tanto no haya coordenadas, no podremos guardar el acta, por lo que debemos esperar.
 
-!!! warning "Importante"
-    La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](/preguntas-frecuentes/recomendaciones/) para hacer un mejor uso de la aplicación. 
+!!! info "Importante"
+    La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](/preguntas-frecuentes/recomendaciones/) para hacer un uso óptimo de la aplicación. 
 
-### Guardar Acta
+### Controlar datos de ubicación
+Antes de guardar un acta debemos controlar que la aplicación nos muestre coordenadas, que la **precisión** sea acorde a la de un navegador GPS y que hayan transcurrido al menos **3 minutos** de toma de coordendas.
 
-Para guardar el Acta simplemente presione **Guardar Acta**. Si los datos no están completos, la aplicación resalta aquellos campos obligatorios o inválidos. Si todo está bien, al presionar **Guardar Acta**, la aplicación solicita el ingreso de la huella dactilar de la persona asociada a ese dispositivo.
+!!! info "Importante"
+    Recordar que la ubaición guardada es aquella que se obtiene al momento de presionar Guardar Acta. Con lo cual, es importante **guardar** el Acta _en las cercanías_ del lugar del acto.
+
+### Guardar acta - Lector embebido
+Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita el ingreso de la huella digital en el sensor de huellas del celular.
 
 ![Solicitud de Huella Dactilar](/img/acta_solicitud-huella.png)
 
-Con sólo tocar el sensor de huellas es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#visualizacion-de-actas).
+Con sólo tocar el sensor de huellas es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#pantalla-de-inicio).
 
-!!! success "Importante"
-    Inmediatamente luego de que la huella dactilar es reconocida, en ese momento se guarda la posición. Es decir, las coordenadas obtenidas en ese preciso instante. Con lo cual, es importante **guardar** el Acta _en las cercanías_ del lugar de interés.
+### Guardar acta - Token biométrico USB
+Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita que conectemos nuestro Token biométrico USB. Mientras tanto vemos el mensaje _Esperando hardware_. Una vez conectado el token, la aplicación solicita el ingreso de alguna huella digital. Presionamos el sensor y el acta se guarda.
+
+## Detalles de un acta
+Desde esta pantalla se puede acceder a la [edición de un acta](#editar-un-acta) y anular o quitar anulación de las mimas.
+
+![Detalle de un Acta](/img/acta_detalle.png)
+
+Además, podemos ver, en caso de contar con conexión a Internet, las coordenadas del acta sobre un mapa de Google Maps.
 
 ## Envío de Actas
+El envío de actas se realiza desde el [listado](#pantalla-de-inicio) de las mismas. 
+Podemos **enviar todas** las actas pendientes usando la opción _Enviar actas_ del menú. También podemos mantener apretado un acta y **seleccionar** cual o cuáles queremos enviar.
 
-El envío de actas se realiza desde el listado de las mismas. Seleccione las actas que quiere enviar y luego presione el botón **Enviar**. Para seleccionar un Acta, presione unos
-segundos sobre la misma.
+!!! info "Importante"
+	Para realizar el envío de actas es necesario que el celular este conectado a **internet**.
 
-![Seleccionar Actas para enviar](/img/acta_enviar.png)
-
-*Aquí pueden verse seleccionadas las actas número 2 y 3, y el botón __Enviar__.*
-
-La aplicación solicitará que confirme la operación. Es importante remarcar que **para realizar el envío de las Actas se necesita conexión a Internet**.
-
-Otra opción de envío es enviar _todas_ las actas pendientes, evitando seleccionar una por una. Para ello, no habiendo seleccionado ningún Acta, presione el botón **Enviar actas** ubicado en el menú superior del listado de actas.
+Una vez enviadas las actas, estas estarán disponibles para administrar a través de [Mis Actas](#) y serán visibles para las _Entidades de control_.
 
 ![Enviar todas la Actas Pendientes](/img/acta_enviar-todas.png)
 
 *Presionando __Enviar Actas__, serán enviadas todas las actas en Estado Pendiente.*
 
-!!! info "Conexión a Internet"
-    Para realizar el envío de las actas se necesita conexión a Internet. Debe conectar el dispositivo a una red Wi-Fi (o compartir datos desde otro dispositivo).
+![Seleccionar Actas para enviar](/img/acta_enviar.png)
 
-## Uso del dispositivo
+*Aquí pueden verse seleccionadas las actas número 2 y 3.*
 
-### PIN de desbloqueo
+## Editar un acta
+Pueden editarse sólo aquellas actas en estado **Pendiente**. La fecha del acta y la ubicación geográfica no pueden ser modificadas, ni tampoco la aplicación las modifica.
 
-El dispositivo suele tener configurado un PIN por defecto que siempre es **1234**. Este código será solicitado cuando encienda el dispositivo. Los siguientes desbloqueos podrán realizarse empleando la huella dactilar o el mismo PIN.
+Para guardar los cambios la aplicación solicitará ingresar nuevamente la huella digital.
 
-### Conexión a redes wi-fi
+## Mostrar sólo pendientes
+Acción de la [pantalla de inicio](#pantalla-de-inicio) que permite ocultar del listado de actas aquellas que estén enviadas o anuladas.
 
-Para ver las redes wi-fi disponibles y conectarse a una de ellas, ingrese al menú **Wi-Fi Connection** desde la esquina superior derecha de la pantalla inicial. Luego, en la pantalla **Wi-Fi Settings** active el _Switch Wifi_.
+## Copia de seguridad
+Acción de la [pantalla de inicio](#pantalla-de-inicio) que realiza una copia de seguridad de aquellas actas pendientes. Esto permite..
 
-![Menú Wi-Fi Connection](/img/wifi_menu.jpg)
-![Switch Wifi](/img/wifi_switch.jpg)
+## Profesional asociado
+
+## Sincronizar actas
