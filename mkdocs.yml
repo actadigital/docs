@@ -33,7 +33,7 @@ nav:
   - Inicio: index.md
   - El Sistema: sistema.md
   - Instructivos:
-      - App Acta Digital: instructivos/app.md
+      - Aplicación móvil: instructivos/app.md
       - Mis Actas: instructivos/mis-actas.md
       - Entidades:
           - Alta Dispositivo PDM: instructivos/alta-dispositivo-pdm.md
@@ -41,7 +41,7 @@ nav:
           - Alta Usuario: instructivos/alta-usuario.md
           - Control de Actas: instructivos/control.md
   - Preguntas Frecuentes:
-      - App Acta Digital: preguntas-frecuentes/preguntas-frecuentes.md
+      - Aplicación móvil: preguntas-frecuentes/preguntas-frecuentes.md
       - Recomendaciones: preguntas-frecuentes/recomendaciones.md
       - Mis Actas: preguntas-frecuentes/mis-actas.md
       - Experiencia en Campo: preguntas-frecuentes/experiencia-en-campo.md
