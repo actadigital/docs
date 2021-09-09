@@ -1,4 +1,4 @@
-# Instructivo de la aplicación **Acta Digital**
+# Instructivo de la aplicación Acta Digital
 
 ## Introducción
 
