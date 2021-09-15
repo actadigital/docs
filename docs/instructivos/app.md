@@ -1,14 +1,14 @@
 # Instructivo de la aplicación Acta Digital
 
-## Introducción
+## Introducción 
 
-La aplicación Acta Digital se ejecuta sobre un celular, y es la encargada de generar actas digitales sobre determinados actos. Un acta digital se conforma principalmente por:
+La aplicación Acta Digital se ejecuta sobre un celular, y es la encargada de generar actas digitales. Los datos más importantes de un acta son:
 
 - Identidad de la persona responsable
 - Ubicación geográfica
 - Fecha y hora
 
-Para utilizar la aplicación se necesita un usuario y una contraseña, de modo que las acciones son registradas bajo el nombre y responsabilidad de la persona asociada a dicho usuario.
+Para utilizar la aplicación es necesario acceder con usuario y contraseña, de modo que las acciones son registradas bajo el nombre y responsabilidad de la persona asociada a dicho usuario.
 
 En los siguientes apartados se describen las principales funcionalidades y se detallan las instrucciones de uso.
 
@@ -24,7 +24,7 @@ Las _Entidades de control_ son las encargadas de gestionar y distribuir las cred
 
 Podemos observar el listado de actas realizadas. Inicialmente se encuentra vacío. Cada ítem del listado muestra el número identificador del acta, el icono que representa su estado, y algún dato adicional. Presionando sobre un acta podemos ver los [detalles](#detalles-de-un-acta) de la misma.
 
-![Listado de Actas](/img/acta_listado.png)
+![Listado de Actas](/img/acta_lista.png)
 
 En la parte superior derecha podemos ver las acciones disponibles, mientras que en la esquina inferior derecha vemos el botón **+**, para generar un nuevo acta.
 En las siguientes secciones se detalla la funcionalidad de cada acción.
@@ -34,7 +34,7 @@ En las siguientes secciones se detalla la funcionalidad de cada acción.
 La generación de un nuevo acta se accede desde la pantalla de inicio (listado de actas), con el botón **+** ubicado en la parte
 inferior derecha. Al presionarlo se abre la siguiente pantalla:
 
-![Nueva Acta](/img/acta_nueva.png)
+![Nueva Acta](/img/acta_nuevo.png)
 
 Los pasos a seguir son:
 
@@ -44,26 +44,25 @@ Los pasos a seguir son:
 
 ### Completar datos del acta
 
-- **Partida de Impuesto Inmobiliario** _(obligatorio)_: Número completo de PII. A medida que se ingresan los números, la aplicación va dando el formato apropiado y calcula el dígito de control de API. El dígito de control se muestra a la derecha del número de PII y no debe ingresarse. Se recomienda verificar que sea correcto.
+- **Partida de Impuesto Inmobiliario** _(obligatorio)_: Número completo de PII. Se ingresan sólo números, la aplicación le da el formato apropiado y calcula el dígito de control. El dígito de control se muestra a la derecha del número de PII y no debe ingresarse. Se recomienda verificar que sea correcto.
 
 - **Comitente** _(obligatorio)_: Nombre y apellido del comitente.
 - **Ocupante** _(obligatorio)_: Nombre y apellido del ocupante, si lo hay.
 - **Calidad de ocupación**: Seleccionar una de las opciones. En caso de no corresponder ninguna, podrá seleccionar _Otro_ y detallar en _Nota u observación_.
-- **Nota u observación**: Cualquier aclaración que crea pertinente.
+- **Nota u observación**: Aclaración que crea pertinente.
 
-La **ubicación geográfica** (latitud y longitud) es obtenida automáticamente. Mientras la aplicación resuelve la ubicación veremos la leyenda _Buscando coordenadas_
-Hasta tanto no haya coordenadas, no podremos guardar el acta, por lo que debemos esperar.
+La **ubicación geográfica** (latitud y longitud) es obtenida **automáticamente**. Mientras la aplicación resuelve la ubicación veremos la leyenda _Buscando coordenadas_ y **no podremos guardar el acta**. Debemos esperar a que el celular tome coordenadas.
 
 !!! info "Importante"
     La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](/preguntas-frecuentes/recomendaciones/) para hacer un uso óptimo de la aplicación. 
 
 ### Controlar datos de ubicación
 
-Antes de guardar un acta debemos observar:
+Antes de guardar un acta debemos controlar:
 
 - Que la aplicación esté tomando **coordenadas**.
 - Que la **precisión** tenga un valor aceptable, acorde a un navegador GPS.
-- Que hayan transcurrido al menos **3 minutos** de toma de coordendas, con el fin de estabilizar coordenadas y precisión.
+- Que hayan transcurrido al menos **3 minutos** de toma de coordendas, con el fin de estabilizar las coordenadas y la precisión.
 
 !!! info "Importante"
     La coordenadas guardadas son aquellaa que se obtienen al momento de presionar Guardar Acta. Por lo tanto es importante **guardar** el Acta _en las cercanías_ del lugar del acto.
@@ -123,6 +122,8 @@ Acción de la [pantalla de inicio](#pantalla-de-inicio) que permite ocultar del 
 ## Copia de seguridad
 
 Esta opción, accesible desde la [pantalla de inicio](#pantalla-de-inicio), permite realizar una copia de seguridad de las actas pendientes. Las actas pendientes se guardan en la nube, por lo tanto es necesario que el celular esté conectado a internet. 
+
+![Copia de seguridad](/img/acta_backup.png)
 
 !!! info "Copia de seguridad automática"
 	La aplicación realiza copias de seguridad automáticamente. Con la opción _Copia de seguridad_ podemos realizarla a demanda, en casos que consideremos necesarios; por ejemplo, hemos realizado varias actas, tenemos que seguir trabajando y queremos resguardar las actas ya hechas, o vamos a cambiar de celular y tenemos actas pendientes.
