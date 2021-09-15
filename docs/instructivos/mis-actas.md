@@ -14,11 +14,11 @@ Cuando ingresamos al sistema, vemos a la izquierda el menú principal, en la esq
 
 ## Mis Actas
 
-El listado de Mis Actas muestra inicialmente las 10 actas más recientemente generadas y **enviadas** por el profesional. Podemos ir cargando de a 5 actas con el botón **MOSTRAR MÁS**, o podemos cargar todas presionando **MOSTRAR TODAS**.
+El listado de Mis Actas muestra las 10 actas más recientemente generadas y **enviadas** por el profesional. Podemos ir cargando de a 5 actas con el botón **MOSTRAR MÁS**, o podemos cargar todas presionando **MOSTRAR TODAS**.
 
-Las actas pendientes sólo son accesibles desde la aplicación móvil.
+Las actas en estado Pendiente sólo son visibles desde la aplicación móvil.
 
-Para cada acta podemos ver:
+Para cada acta del listado podemos ver:
 
 - Su fecha de generación.
 - La precisión del sensor GPS al momento de tomar las coordenadas.
@@ -42,12 +42,12 @@ Las acciones que podemos realizar sobre un acta son las siguientes, en el mismo 
 
 Desde esta pantalla, podemos ver la totalidad de los datos que contiene un acta, además de la representación visual de su ubicación, precisión de las coordenadas, y datos de control.
 
-De los datos mostrados, es importante explicar el dato Indicador de calidad, desarrollado en la siguiente seccion: [Indicador de calidad](#indicador-de-calidad)
+Para más información sobre el dato **Indicador de calidad** podemos consultar la siguiente sección: [Indicador de calidad](#indicador-de-calidad)
 
-Si el control de la ubicación fue realizado con éxito, en el mapa podremos ver:
+Si el [control de la ubicación](#control-de-ubicacion) fue realizado con éxito, en el mapa podremos ver:
 
-- Un círculo azul con centro en la parcela referida en el acta. El círculo indica el área donde se considera correcta la ubicación del acta.
-- Un marcador con el icono de Acta Digital, indicando las coordenadas del acta.
+- Un círculo azul centrado en la parcela. Indica el área donde se considera correcta la ubicación del acta.
+- Un marcador con el icono de Acta Digital, ubicando las coordenadas del acta.
 - Un círculo rojo alrededor de la ubicación del acta, indicando la precisión con la cual fueron tomadas las coordenadas.
 
 ![Mapa detalle Mis Actas](/img/mis-actas-mapa.png)
@@ -55,6 +55,8 @@ Si el control de la ubicación fue realizado con éxito, en el mapa podremos ver
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vSYZ3ppDPPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Historial de cambios
+
+Debajo de los detalles del acta podemos ver el listado de cambios que se han hecho sobre la misma. Vemos la fecha, el usuario que lo realizó, y los datos anteriores que tenía el acta, previos a su edición.
 
 ## Editar un acta
 
@@ -73,10 +75,32 @@ La modificación del número de partida conlleva a una nueva ejecución del [con
 
 ## Control de ubicación
 
-El control de ubicación (o control de calidad), es el proceso mediante el cual el sistema busca determinar si la ubicación del acta es correcta, o debe revisarse. Se utilizan los datos de la localización del acta, y las dimensiones y ubicación de la parcela asociada al número de PII. 
+El control de ubicación (o control de calidad), es un proceso automático que realiza el sistema para determinar si la **ubicación** del acta es **correcta**, o debe revisarse. Se requieren los siguientes datos:
 
-El **criterio de control** es el siguiente: dado el encuadra de la parcela, tomamos su lado más largo L, y con centro en el centroide de la parcela trazamos una circunferencia de de radio 2L. Por último el sistema verifica si las coordenadas del acta están dentro de dicha circunferencia o no.
+- dimensión y ubicación de la parcela asociada al número de PII.
+- coordenadas del acta. 
 
+El **criterio automático de control** es el siguiente: dado el encuadre de la parcela, tomamos su lado más largo L, y, con centro en el centroide de la parcela, trazamos una circunferencia de radio 2L. Por último el sistema verifica si las coordenadas del acta están dentro de dicha circunferencia o no.
+
+Visualmente se utilizan los siguientes iconos y colores para representar el resultado del control de ubicación: 
 Correcta: ![Correcta](/img/icono-correcto.png) Revisar: ![Revisar](/img/icono-revisar.png)
 
+**Correcta** significa que el acta se encuentra efectivamente en las cercanías de la parcela referenciada por el número de partida.
+
+**Revisar** siginifica que la _Entidad de control_ debe realizar un chequeo manual de la ubicación del acta, siendo la _Entidad de control_ quien determine si es Correcta o Incorrecta dicha ubicación.
+
 ### Indicador de calidad
+
+El indicador de calidad es un número adimensional que **representa la situación de la ubicación** del acta respecto a la parcela referenciada. Es el cociente entre:
+
+- distancia del acta al centro de la parcela
+- y el radio de la circunferencia descripta en [control de la ubicación](#control-de-ubicacion).
+
+La siguiente imagen representa estos dos datos:
+
+![Indicador de calidad](/img/acta_indicador_calidad.png)
+
+La **lectura** que podemos hacer del indicador de calidad es la siguiente: 
+
+- un valor **entre 0 y 1** indica que el acta está ubicada dentro de la circunferencia donde **se considera correcta**, por lo tanto el acta está ubicada en las cercanías de la parcela.
+- un valor **mayor que 1** indica que el acta está fuera de dicha circunferencia, por lo tanto **debe realizarse una revisión manual** de la situación.
