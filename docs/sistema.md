@@ -3,32 +3,25 @@
 Un acta digital consiste en un **documento digital** cuyos datos más importantes son los siguientes:
 
 - Identidad de la persona responsable, acreditada mediante lectura de huella digital.
-- Ubicación geográfica
-- Fecha y hora de generación
+- Ubicación geográfica.
+- Fecha y hora de generación.
 
 Un acta digital es generada utilizando un dispositivo móvil, en adelante celular, a través de la aplicación Acta Digital. 
 
-### Generación y gestión de actas
+### Componentes del sistema
 
-Para la gestión y control de las actas, es necesario un **sistema**, un conjunto de aplicaciones, actores y componentes, en donde podemos identificar los siguientes roles:
+El sistema Acta Digital está compuesto por:
 
-- Generadores de actas: Son las personas que generan actas utilizando la aplicación móvil.
-- Entidades de control: Son las entidades que realizan el seguimiento de las actas y gestionan los usuarios.
-
-#### Componentes del sistema
-
-Podemos identificar las siguientes partes del sistema:
-
-- Personas responsables de la generación de actas
-- Aplicación móvil de generación de actas
-- Aplicación web de gestion de Mis Actas
-- Entidades de control de actas
-- Aplicación web para control
-- Equipo de soporte técnico
+- Personas que generan actas haciendo uso de un celular y de la aplicación Acta Digital.
+- La aplicación móvil Acta Digital.
+- Aplicación web Mis Actas, dónde las personas que generan actas pueden consultarlas y gestionarlas.
+- Entidades de control que realizan el seguimiento de las actas.
+- Aplicación web utilizada por las Entidades de control.
+- Equipo de soporte técnico que capacita e interviene ante problemas o consultas.
 
 #### Estados de un acta
 
-Un acta digital puede encontrarse en uno de estos tres estados:
+Un acta digital puede encontrarse en alguno de los siguientes estados:
 
 - Pendiente de envío
 - Enviada
