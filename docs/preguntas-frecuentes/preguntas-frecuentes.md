@@ -37,8 +37,6 @@ Una buena alternativa en casos complicados es **acceder a internet compartiendo 
 
 Para ver las redes wi-fi disponibles y conectarse a una de ellas, ingrese al menú **Wi-Fi Connection** desde la esquina superior derecha de la pantalla inicial. Luego, en la pantalla **Wi-Fi Settings** active el _Switch Wifi_.
 
-![Menú Wi-Fi Connection](/img/wifi_menu.jpg)
-![Switch Wifi](/img/wifi_switch.jpg)
 
 ## Fecha y hora
 

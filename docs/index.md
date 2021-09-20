@@ -6,7 +6,7 @@ Recorra la tabla de contenidos o utilice la herramienta de búsqueda para encont
 Si la documentación no alcanza, siempre puede encontrarnos en nuestro [correo electrónico](mailto:info@actadigital.com.ar).
 -->
 
-[![Acta Digital](/img/logos/logo.svg){: style="width:100%"}](https://actadigital.com.ar)
+[![Acta Digital](/img/logos/logo.png){: style="width:100%"}](https://actadigital.com.ar)
 
 **ACTA DIGITAL** es un **Sistema de Certificación Digital de actos**.
 
