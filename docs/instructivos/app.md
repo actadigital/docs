@@ -2,11 +2,7 @@
 
 ## Introducción 
 
-La aplicación Acta Digital se ejecuta sobre un celular, y es la encargada de generar actas digitales. Los datos más importantes de un acta son:
-
-- Identidad de la persona responsable
-- Ubicación geográfica
-- Fecha y hora
+La aplicación Acta Digital se ejecuta sobre un celular, y es la encargada de generar actas digitales. 
 
 Para utilizar la aplicación es necesario acceder con usuario y contraseña, de modo que las acciones son registradas bajo el nombre y responsabilidad de la persona asociada a dicho usuario.
 
@@ -38,11 +34,11 @@ inferior derecha. Al presionarlo se abre la siguiente pantalla:
 
 Los pasos a seguir son:
 
-- Completar datos del acta
-- Controlar datos de ubicación
+- Completar los datos del acta
+- Controlar los datos de ubicación
 - Guardar
 
-### Completar datos del acta
+### Completar los datos del acta
 
 - **Partida de Impuesto Inmobiliario** _(obligatorio)_: Número completo de PII. Se ingresan sólo números, la aplicación le da el formato apropiado y calcula el dígito de control. El dígito de control se muestra a la derecha del número de PII y no debe ingresarse. Se recomienda verificar que sea correcto.
 
@@ -56,13 +52,13 @@ La **ubicación geográfica** (latitud y longitud) es obtenida **automáticament
 !!! info "Importante"
     La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](/preguntas-frecuentes/recomendaciones/) para hacer un uso óptimo de la aplicación. 
 
-### Controlar datos de ubicación
+### Controlar los datos de ubicación
 
 Antes de guardar un acta debemos controlar:
 
-- Que la aplicación esté tomando **coordenadas**.
+- Que la aplicación haya tomando **coordenadas**.
 - Que la **precisión** tenga un valor aceptable, acorde a un navegador GPS.
-- Que hayan transcurrido al menos **3 minutos** de toma de coordendas, con el fin de estabilizar las coordenadas y la precisión.
+- Que hayan transcurrido al menos **3 minutos desde la obtención de la primera coordenada**, con el fin de estabilizar las coordenadas y la precisión.
 
 !!! info "Importante"
     La coordenadas guardadas son aquellaa que se obtienen al momento de presionar Guardar Acta. Por lo tanto es importante **guardar** el Acta _en las cercanías_ del lugar del acto.
@@ -73,11 +69,11 @@ Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicaci
 
 ![Solicitud de Huella Dactilar](/img/acta_solicitud-huella.png)
 
-Con sólo tocar el sensor de huellas es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#pantalla-de-inicio).
+Con sólo tocar el sensor de huellas, es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#pantalla-de-inicio).
 
 ### Guardar acta - Token biométrico USB
 
-Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita que conectemos nuestro Token biométrico USB. Mientras tanto vemos el mensaje _Esperando hardware_. 
+Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita que conectemos nuestro Token biométrico USB. Mientras tanto veremos el mensaje _Esperando hardware_. 
 
 Una vez conectado el token, la aplicación solicita el ingreso de alguna huella digital. Presionamos el sensor del token y el acta se guarda.
 
@@ -85,7 +81,7 @@ Una vez conectado el token, la aplicación solicita el ingreso de alguna huella 
 
 Si seleccionamos una fila del listado de actas, podemos acceder a los detalles del acta seleccionada.
 
-Desde esta pantalla se puede acceder a la [edición de un acta](#editar-un-acta), o podemos anular o quitar anulación de las mimas.
+Desde esta pantalla se puede acceder a la [edición de un acta](#editar-un-acta), o podemos anular o quitar la anulación de la misma.
 
 ![Detalle de un Acta](/img/acta_detalle.png)
 
@@ -93,17 +89,17 @@ Además podemos ver, en caso de contar con conexión a Internet, las coordenadas
 
 ## Enviar actas
 
-El envío de actas se realiza desde el [listado](#pantalla-de-inicio) de las mismas. 
-Podemos **enviar todas** las actas pendientes usando la opción _Enviar actas_ del menú. También podemos mantener apretado un acta y **seleccionar** cual o cuáles queremos enviar.
+El envío de actas se realiza desde el [listado de actas](#pantalla-de-inicio). 
+Podemos elegir **enviar todas** aquellas actas en estado _Pendiente_ presionando el botón _Enviar actas_. También podemos mantener presionado sobre un acta del listado y **seleccionar** cual o cuáles deseamos enviar.
 
 !!! info "Importante"
-	Para realizar el envío de actas es necesario que el celular este conectado a **internet**.
+	Para realizar el envío de actas es necesario que el celular este conectado a **Internet**.
 
-Una vez enviadas las actas, estas estarán disponibles para administrar a través de [Mis Actas](/instructivos/mis-actas) y serán visibles para las _Entidades de control_.
+Una vez enviadas las actas, éstas estarán disponibles para administrar a través de [Mis Actas](/instructivos/mis-actas), y serán visibles para las _Entidades de control_.
 
 ![Enviar todas la Actas Pendientes](/img/acta_enviar-todas.png)
 
-*Presionando __Enviar Actas__, serán enviadas todas las actas en Estado Pendiente.*
+*Presionando __Enviar Actas__, serán enviadas todas las actas en estado Pendiente.*
 
 ![Seleccionar Actas para enviar](/img/acta_enviar.png)
 
@@ -111,7 +107,7 @@ Una vez enviadas las actas, estas estarán disponibles para administrar a travé
 
 ## Editar un acta
 
-Pueden editarse aquellas actas en estado **Pendiente**. La fecha y la ubicación geográfica no pueden ser modificadas, ni tampoco la aplicación las modifica.
+Desde la aplicación móvil pueden editarse sólo aquellas actas en estado **Pendiente**. La fecha y la ubicación geográfica no pueden ser modificadas, ni tampoco la aplicación las modifica.
 
 Para guardar los cambios se solicitará ingresar nuevamente la huella digital.
 
@@ -121,16 +117,16 @@ Acción de la [pantalla de inicio](#pantalla-de-inicio) que permite ocultar del 
 
 ## Copia de seguridad
 
-Esta opción, accesible desde la [pantalla de inicio](#pantalla-de-inicio), permite realizar una copia de seguridad de las actas pendientes. Las actas pendientes se guardan en la nube, por lo tanto es necesario que el celular esté conectado a internet. 
-
-![Copia de seguridad](/img/acta_backup.png)
+Esta opción, accesible desde la [pantalla de inicio](#pantalla-de-inicio), permite realizar una copia de seguridad de las actas pendientes. Las actas pendientes se guardan en la nube, por lo tanto es necesario que el celular esté conectado a Internet. 
 
 !!! info "Copia de seguridad automática"
 	La aplicación realiza copias de seguridad automáticamente. Con la opción _Copia de seguridad_ podemos realizarla a demanda, en casos que consideremos necesarios; por ejemplo, hemos realizado varias actas, tenemos que seguir trabajando y queremos resguardar las actas ya hechas, o vamos a cambiar de celular y tenemos actas pendientes.
+	
+![Copia de seguridad](/img/acta_backup.png)
 
 ## Profesional asociado
 
-En esta opción accesible desde la pantalla de inicio, podemos ver los datos del profesional que inició sesión. 
+En esta opción, accesible desde la pantalla de inicio, podemos ver los datos del responsable de las actas realizadas. 
 
 ## Sincronizar actas
 
@@ -140,9 +136,9 @@ La opción de sincronizar actas es útil en casos de cambio de celular o reinsta
 
 ## Reinstalación de la aplicación
 
-Podemos requerir reinstalar la aplicación en casos de cambio de celular, o fallas en el mismo. Para evitar perder datos debemos realizar los siguientes pasos:
+Podemos requerir reinstalar la aplicación en casos de cambio de celular, o falla del mismo. Para evitar perder datos, debemos realizar los siguientes pasos:
 
-- De ser posible, realizar [copia de seguridad](#copia-de-seguridad) en el celular actualmente en uso.
+- De ser posible, realizar la [copia de seguridad](#copia-de-seguridad) en el celular actualmente en uso.
 - Instalar la aplicación, ya sea en otro celular o nuevamente en el mismo. La podemos encontrar en la tienda oficial.
-- [Iniciar sesión](#inicio-de-sesion)
-- Ingresar en la opción [Sincronizar actas](#sincronizar-actas)
+- [Iniciar sesión](#inicio-de-sesion).
+- Ingresar en la opción [Sincronizar actas](#sincronizar-actas) para descargar nuestras actas al celular.
