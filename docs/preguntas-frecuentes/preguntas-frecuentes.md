@@ -6,15 +6,6 @@ Algunos casos se refieren a un modelos de dispositivo en particular (FiGO, nova,
 
 Para mayor información, también está disponible el [Instructivo de la aplicación **Acta Digital**](/instructivos/app.md) y siempre puede contactarnos a nuestro [correo electrónico](mailto:info@actadigital.com.ar) o a través de la entidad que le haya suministrado el dispositivo.
 
-## PIN de desbloqueo 
-
-!!! info "PIN"
-    1234
-
-El dispositivo tiene configurado un PIN por defecto que es **1234**. Por razones de seguridad, la mayoría de los dispositovos lo exigen.
-
-Este código será solicitado cuando encienda el dispositivo. Los siguientes desbloqueos podrán realizarse empleando la huella dactilar o el mismo PIN.
-
 ## Pérdida del dispositivo
 
 En el caso extremo de sufrir robo, pérdida o rotura del dispositivo la única manera de proceder es comunicarse con la entidad que se lo haya entregado, con la cual comunmente Ud. firmó un contrato de comodato, para **denunciar la pérdida** del mismo y **solicitar su reposición**.
@@ -32,11 +23,6 @@ Una buena alternativa en casos complicados es **acceder a internet compartiendo 
 
 !!! warning "Problemas con dispositivo FiGO"
     Si la obtención de coordenadas demora demasiado (varios minutos) aunque esté a cielo abierto, suele funcionar **cancelar el Acta y volver a crearla**.
-
-## Conexión a redes wi-fi
-
-Para ver las redes wi-fi disponibles y conectarse a una de ellas, ingrese al menú **Wi-Fi Connection** desde la esquina superior derecha de la pantalla inicial. Luego, en la pantalla **Wi-Fi Settings** active el _Switch Wifi_.
-
 
 ## Fecha y hora
 

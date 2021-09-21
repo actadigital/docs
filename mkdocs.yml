@@ -35,11 +35,8 @@ nav:
   - Aplicación móvil: instructivos/app.md
   - Mis Actas: instructivos/mis-actas.md
   - Uso del celular entregado: instructivos/uso-celular-comodato.md
-  - Preguntas Frecuentes:
-      - Aplicación móvil: preguntas-frecuentes/preguntas-frecuentes.md
-      - Recomendaciones: preguntas-frecuentes/recomendaciones.md
-      - Mis Actas: preguntas-frecuentes/mis-actas.md
-      - Experiencia en Campo: preguntas-frecuentes/experiencia-en-campo.md
+  - Preguntas Frecuentes: preguntas-frecuentes/preguntas-frecuentes.md
+  - Recomendaciones: preguntas-frecuentes/recomendaciones.md
   - Acerca de: acerca.md
 markdown_extensions:
   - admonition
