@@ -1,43 +1,54 @@
-# Preguntas Frecuentes
+# Preguntas frecuentes
 
-Aquí dejamos un listado de preguntas frecuentes y la solución a algunos problemas recurrentes, luego de algunos años de experiencia de uso del sistema.
+## ¿Qué relación tenemos con el Colegio de Agrimensores?
 
-Algunos casos se refieren a un modelos de dispositivo en particular (FiGO, nova, doogee, Blü). Los mismos serán señalados.
+Somos **proveedores** de los dispositivos de Acta Digital y del servicio de Soporte Técnico del [Sistema de Acta Digital](/sistema).
 
-Para mayor información, también está disponible el [Instructivo de la aplicación **Acta Digital**](/instructivos/app.md) y siempre puede contactarnos a nuestro [correo electrónico](mailto:info@actadigital.com.ar) o a través de la entidad que le haya suministrado el dispositivo.
+## ¿Qué hago si extravío el celular entregado en comodato?
 
-## Pérdida del dispositivo
+En el caso de sufrir **robo, pérdida o rotura** del dispositivo, la manera de proceder es comunicarse con la _Entidad de control_ que se lo haya entregado, para **denunciar la pérdida** del mismo y **solicitar su reposición**.
 
-En el caso extremo de sufrir robo, pérdida o rotura del dispositivo la única manera de proceder es comunicarse con la entidad que se lo haya entregado, con la cual comunmente Ud. firmó un contrato de comodato, para **denunciar la pérdida** del mismo y **solicitar su reposición**.
+## ¿Por qué la aplicación demora tanto en tomar coordenadas?
 
-Por el momento **no existe** una manera de hacer copia de seguridad de las Actas en estado _Pendiente_. Por esto, hacemos énfasis en algunos [usos recomendados](recomendaciones.md) para evitar tener que rehacer dichas Actas en este caso.
+Como todo receptor GPS, el dispositivo debe tener _buena visibilidad_. Esto significa que **el cielo debe estar libre de todo obstáculo**. Árboles, edificios, techos, son ejemplos de obstáculos que debemos evitar.
 
-## Obtención de Coordenadas
+En casos complicados podemos **asistir al GPS con Internet** (por ejemplo compartiendo datos desde otro dispositivo). Ver [recomendaciones](recomendaciones.md#asistir-al-gps-en-la-toma-de-coordenadas).
 
-!!! info "El GPS debe funcionar sin Internet"
-    La obtención de coordenadas **debe funcionar** con GPS, sin necesidad de acceso a internet. Aunque la conexión puede agilizar y mejorar este proceso.
+Un procedimiento que suele funcionar es **cancelar la creación del acta y volverla a iniciar**.
 
-Como todo receptor GPS, el dispositivo debe tener _buena visibilidad_. Esto significa que **el cielo debe estar libre de todo obstáculo**. Árboles, edificios, techos, son ejemplos de obstáculos que deberá evitar.
+Puede ocurrir también que la **fecha y hora** del celular se encuentren desconfiguradas. Es importante **verificar** esto antes de salir a realizar los trabajos. Lo podemos resolver conectando el celular a Internet o contactando al [soporte técnico](/acerca/#contacto).
 
-Una buena alternativa en casos complicados es **acceder a internet compartiendo datos desde otro dispositivo**, y así asistir al receptor GPS con la triangulación que el dispositivo puede calcular con las redes de datos móviles. Por favor, lea [estas recomendaciones](recomendaciones.md#compartir-datos-desde-otro-dispositivo).
+## ¿Por qué no me llega el PDF del acta al mail?
 
-!!! warning "Problemas con dispositivo FiGO"
-    Si la obtención de coordenadas demora demasiado (varios minutos) aunque esté a cielo abierto, suele funcionar **cancelar el Acta y volver a crearla**.
+Para dar solución a esta pregunta sugerimos utilizar la [aplicación web Mis Actas](/instructivos/mis-actas/) y reenviar el PDF utilizando el botón correspondiente en el listado de actas.
 
-## Fecha y hora
+Es importante mencionar que el acta debe estar en estado Enviada. Si no llegamos a ver el acta en el listado de actas de Mis Actas, contactarse con [soporte técnico](/acerca/#contacto).
 
-!!! danger "Software desactualizado"
-    Suele pasar que el reloj del dispositivo _se desconfigure_. Las razones pueden ser **software desactualizado** o **desincronización por falta de conexión a internet**, igual que sucede con cualquier dispositivo móvil.
+## ¿Cómo corrijo los datos de un acta?
 
-Para evitar la _desconfiguración_ del reloj del dispositivo, se **recomienda fuertemente conectar el dispositivo a internet con cierta frecuencia**. Al menos mensualmente. Esto no solo evitará _desconfiguraciones_, sino también mantendrá las piezas de software actualizadas, lo cual a su vez ayudará a evitar otros varios problemas de mal funcionamiento o _desconfiguración_.
+Utilizando la [aplicación web Mis Actas](/instructivos/mis-actas/). Desde allí podremos luego reenviar el PDF al mail con los datos corregidos.
 
-Para acceder a internet, puede hacerlo conectándose a una red wi-fi o [compartiendo datos desde otro dispositivo](recomendaciones.md#compartir-datos-desde-otro-dispositivo)
+## No puedo conectarme a mi red WiFi
+
+Consultar la sección [Conexión a redes WiFi](/instructivos/uso-celular-comodato/#conexion-a-redes-wifi). Ante problemas con la conexión podemos intentar **olvidar** la red Wifi. Para eso la seleccionamos y presionamos OLVIDAR. Luego la volvemos a seleccionar y nos volverá a pedir la contraseña. En caso de contiuar el problema y no poder olvidar la red, contactarse con [soporte técnico](/acerca/#contacto).
+
+## El token no me lee las huellas
+
+Puede ocurrir que:
+
+- Esté ingresando el dedo en una posición distinta a la utilizada en el registro de huellas. Es decir, si registró las huellas, por ejemplo, presionando más con la punta del dedo que con la yema y luego ingresa la yema, la huella no será reconocida. **Probar distintos lugares de apoyo del dedo hasta encontrar cual funciona y recordarlo**.
+- Combinado con lo anterior, puede ocurrir que el dedo esté muy reseco. Es importante tener una mínima humedad en la yema del dedo.
+
+Son registrados los dos dedos pulgares. Probar con ambos y distintas presiones, fuerte, medio y sueve. Con un toque (contando un segundo) debería funcionar.
+
+!!! info "Imporntante"
+	Intentar recordar la forma en que el token nos reconoce las huellas, asi no volvemos a tener inconvenientes en el futuro.
 
 ## Pantalla táctil descalibrada
 
-Algunos dispositivos de la marca FiGO han sufrido este problema. La pantalla pierde _calibración_. Es decir, cuando se presiona sobre un punto de la misma, el dispositivo lo toma en otro. Esto ocasiona que cuando se quiere presionar un botón, se termina presionando otro y todo redunda en un mal funcionamiento.
+Algunos celulares de la marca FiGO pueden presentar este inconveniente. La pantalla pierde _calibración_. Es decir, cuando se presiona sobre un punto de la misma, el dispositivo lo toma en otro.
 
-Por ahora no existe otra solución que el **cambio del dispositivo por uno nuevo**. Para ello, por favor comunicarse con la entidad que se lo entregó para disparar el protocolo de cambio.
+Se debe proceder con el **cambio del dispositivo**. Ver pregunta [¿Qué hago si extravío el celular entregado en comodato?](#que-hago-si-extravio-el-celular-entregado-en-comodato)
 
 ## Problemas con la batería
 

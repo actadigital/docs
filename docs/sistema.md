@@ -33,6 +33,4 @@ En la aplicación móvil, el estado Pendiente se representa con un reloj de aren
 Un acta se encuentra en estado **Enviada** cuando está almacenada en la nube y es visible para las _Entidades de control_.
 Para representar el estado Enviada se emplea una flecha. 
 
-Eventualmente, un Acta puede ser **anulada**. Las actas anuladas no pueden enviarse, editarse ni son visibles para las _Entidades de control_.
-
-## Gestion de usuarios
+Eventualmente, un acta puede ser **Anulada**. Las actas anuladas no pueden enviarse, editarse ni son visibles para las _Entidades de control_.

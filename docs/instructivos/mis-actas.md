@@ -21,7 +21,7 @@ Las actas en estado Pendiente sólo son visibles desde la aplicación móvil.
 Para cada acta del listado podemos ver:
 
 - Su fecha de generación.
-- La precisión del sensor GPS al momento de tomar las coordenadas.
+- La precisión de las coordenadas del acta.
 - La distancia del acta a la parcela; parcela asociada al número de PII.
 - Estado del [control de la ubicación](#control-de-ubicacion).
 - Los botones de acciones.

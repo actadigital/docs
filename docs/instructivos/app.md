@@ -27,12 +27,12 @@ En las siguientes secciones se detalla la funcionalidad de cada acción.
 
 ## Generación de un nuevo acta
 
-La generación de un nuevo acta se accede desde la pantalla de inicio (listado de actas), con el botón **+** ubicado en la parte
+La generación de un nuevo acta se accede desde el listado de actas, con el botón **+** ubicado en la parte
 inferior derecha. Al presionarlo se abre la siguiente pantalla:
 
 ![Nueva Acta](/img/acta_nuevo.png)
 
-Los pasos a seguir son:
+Los **pasos a seguir** son:
 
 - Completar los datos del acta
 - Controlar los datos de ubicación
@@ -40,8 +40,7 @@ Los pasos a seguir son:
 
 ### Completar los datos del acta
 
-- **Partida de Impuesto Inmobiliario** _(obligatorio)_: Número completo de PII. Se ingresan sólo números, la aplicación le da el formato apropiado y calcula el dígito de control. El dígito de control se muestra a la derecha del número de PII y no debe ingresarse. Se recomienda verificar que sea correcto.
-
+- **Partida de Impuesto Inmobiliario** _(obligatorio)_: Se ingresan sólo números, la aplicación le da el formato apropiado y calcula el dígito de control.
 - **Comitente** _(obligatorio)_: Nombre y apellido del comitente.
 - **Ocupante** _(obligatorio)_: Nombre y apellido del ocupante, si lo hay.
 - **Calidad de ocupación**: Seleccionar una de las opciones. En caso de no corresponder ninguna, podrá seleccionar _Otro_ y detallar en _Nota u observación_.
@@ -49,12 +48,20 @@ Los pasos a seguir son:
 
 La **ubicación geográfica** (latitud y longitud) es obtenida **automáticamente**. Mientras la aplicación resuelve la ubicación veremos la leyenda _Buscando coordenadas_ y **no podremos guardar el acta**. Debemos esperar a que el celular tome coordenadas.
 
-!!! info "Importante"
-    La aplicación solicita al receptor GPS coordenadas cada 10 segundos. Es importante no obstaculizar la visibilidad de satélites GPS del dispositivo (techos, árboles, edificios, etc.). Por favor, lea [estas recomendaciones](/preguntas-frecuentes/recomendaciones/) para hacer un uso óptimo de la aplicación. 
+!!! info "El GPS debe funcionar sin Internet"
+    La obtención de coordenadas **debe funcionar** con GPS, sin necesidad de acceso a Internet. De todos modos, la conexión a Internet agiliza y acelera este proceso. 
+	Consultar las siguientes [recomendaciones](/preguntas-frecuentes/recomendaciones/).
 
 ### Controlar los datos de ubicación
 
-Antes de guardar un acta debemos controlar:
+La aplicación nos proporciona información para que sepamos en qué estado se encuentra el proceso de toma de coordenadas. En la imagen de Nuevo Acta, podemos ver:
+
+- **Tiempo transcurrido**: Indica el tiempo transcurrido desde el inicio de la toma de coordeandas.
+- **Satélites**: Muestra el número de satélites que están siendo utilizados para fijar las coordenadas. Si, por ejemplo, vemos **0/10**, significa que se están utilizando 0 satélites de 10 visibles, y no estamos obteniendo coordenadas del sistema GPS. Debemos buscar un sitio más despejado. Si por ejemplo vemos **1/10**, o 2, es posible que tengamos mal la fecha y hora del celular, no pudiendo establecer comunicación con los satélites. Un **caso normal de funcionamiento** es ver 4/12, 10/20.
+- **Precisión**: De las coordeandas. Mejora con el paso de los minutos. Utilizando sólo sistema GPS podremos ver 4 o 6 metros. Asistiendo al GPS con Internet la precisión suele empeorar, siendo típicamente 20 u 80 metros.
+- **Coordenadas**: Se intentan obtener cada 5 o 10 segundos. Se van ajustando con el pasar de los minutos.
+
+**Antes de guardar un acta debemos controlar**:
 
 - Que la aplicación haya tomando **coordenadas**.
 - Que la **precisión** tenga un valor aceptable, acorde a un navegador GPS.

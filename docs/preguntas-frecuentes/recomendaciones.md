@@ -2,45 +2,33 @@
 
 ## Celular entregado en comodato
 
+### Conectar el celular a Internet frecuentemente
+
+Para evitar problemas con la toma de coordenadas, sincronización de la fecha y problemas en general, recomendamos conectar el celular a Internet con cierta frecuencia. Al menos mensualmente, y **dejarlo conectado durante unas horas**.
+
 ### Conseguir cargador portátil
 
-Una buena costumbre es contar con un cargador de batería portátil y/o compatible para su vehículo. Quizás también sea útil para otros dispositivos. De esta forma, siempre podrá recargar el dispositivo en campo, en el caso de que se haya quedado sin batería. Pero además, esto posibilitaría **dejarlo siempre en el mismo lugar**, sea su vehículo, el estuche de algún instrumental, etc., reduciendo el riesgo de perderlo.
+Una buena costumbre es contar con un cargador de batería portátil y/o compatible para su vehículo. De esta forma, siempre podrá recargar el dispositivo en campo, en el caso de que se haya quedado sin batería.
 
 ![Cargador portátil](/img/cargador_portatil.png "Cargador portátil") *Cargador portátil*
 ![Cargador vehículo](/img/cargador_vehiculo.png "Cargador para vehículo") *Cargador para vehículo*
 
 ## Token Biométrico
 
-### Limpiar el sensor del token
+### Limpiar el sensor de huellas
 
-### 
+Recomendamos, antes de ingresar nuestra huella en el sensor del Token, **limpiar** el mismo procurando quitar marcas de huellas previas y grasitud. Para facilitar la lectura de la huella es recomendable tener cierta **humedad** en la yema de nuestro pulgar, y ejercer un **toque breve con presión media**.
 
-## Compartir Internet desde otro dispositivo
+## Asistir al GPS en la toma de coordenadas
 
-Encontrar la manera de "darle internet" al dispositivo desde otro celular es muy útil para lo siguiente:
+Cuando el GPS no puede responder (por distintas razones), suele demorar algunos minutos más de lo común en obtener coordenadas.
 
-### Asistir al GPS en la toma de coordenadas
+En este caso es bueno conectarse a Internet, compartiendo datos desde otro celular, y **darle un tiempo de al menos 3 minutos** para que la coordenada obtenida con _GPS + red de datos_ se estabilice y logre su máxima precisión (de alrededor de 10 metros, igual a la de un navegador).
 
-La app **Acta Digital** solicita coordenadas al GPS cada 10 segundos. Cuando el chip GPS no puede responder (por distintas razones), suele demorar algunos minutos más de lo común en establecer la posición.
+## Verificar la posición del acta recién creada
 
-En este caso es bueno conectarse a internet, compartiendo datos desde otro celular, y **darle un tiempo de al menos 1 minuto para que la coordenada obtenida con _GPS + red de datos_ se estabilice y logre su máxima precisión** (de alrededor de 10 metros, igual a la de un navegador).
+Si tenemos acceso a Internet podemos, ni bien creada el acta, verficar su ubicación. Para eso ingresamos al acta recién realizada, y luego presionamos sobre la _lupa_ que se encuentra cerca de las coordenadas.
 
-### Verificar si la posición del Acta es correcta
-
-Si tiene acceso a internet (a través de datos compartidos), podrá inmediantamente verficar la ubicación del Acta desde la app. Ingresando al Acta recién realizada, y luego presionando sobre la _lupa_ que se encuentra cerca de las coordenadas.
+De este modo podemos observar la ubicación georreferenciada del acta realizada, **comprobando si las coordenadas fueron tomadas correctamente**.
 
 ![Ubicación de un Acta](/img/acta_ubicacion.png "Ubicación de un Acta")
-
-Entonces podrá observar la ubicación georreferenciada del Acta realizada. Aquí dos ejemplos.
-
-![Acta Rural](/img/acta_ubicacion-rural.png "Acta Rural") *Acta Rural*
-![Acta Urbana](/img/acta_ubicacion-urbana.png "Acta Urbana") *Acta Urbana*
-
-# Resumen
-
-- saber compartir datos desde otro dispositivo
-- dejar el dispositivo siempre en el mismo lugar
-- poder cargar su batería en campo
-- iniciar, finalizar y enviar las Actas en campo
-
-En sintesis, la combinación de todas las recomendaciones anteriores permitiría reducir toda posibilidad de pérdida, robo o rotura del dispositivo. **Sistematizar su uso, favorece en el mismo sentido.**
