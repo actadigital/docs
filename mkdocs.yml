@@ -2,8 +2,8 @@ site_name: Acta Digital
 site_url: https://ayuda.actadigital.com.ar/es/latest/
 theme:
   name: "material"
-  logo: /img/logos/logo-acta-digital.svg
-  favicon: /img/logos/logo-acta-digital.svg
+  logo: /es/latest/img/logos/logo-acta-digital.svg
+  favicon: /es/latest/img/logos/logo-acta-digital.svg
   language: "es"
   feature:
     tabs: false

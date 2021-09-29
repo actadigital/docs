@@ -20,7 +20,7 @@ Las _Entidades de control_ son las encargadas de gestionar y distribuir las cred
 
 Podemos observar el listado de actas realizadas. Inicialmente se encuentra vacío. Cada ítem del listado muestra el número identificador del acta, el icono que representa su estado, y algún dato adicional. Presionando sobre un acta podemos ver los [detalles](#detalles-de-un-acta) de la misma.
 
-![Listado de Actas](/img/acta_lista.png)
+![Listado de Actas](/es/latest/img/acta_lista.png)
 
 En la parte superior derecha podemos ver las acciones disponibles, mientras que en la esquina inferior derecha vemos el botón **+**, para generar un nuevo acta.
 En las siguientes secciones se detalla la funcionalidad de cada acción.
@@ -30,7 +30,7 @@ En las siguientes secciones se detalla la funcionalidad de cada acción.
 La generación de un nuevo acta se accede desde el listado de actas, con el botón **+** ubicado en la parte
 inferior derecha. Al presionarlo se abre la siguiente pantalla:
 
-![Nueva Acta](/img/acta_nuevo.png)
+![Nueva Acta](/es/latest/img/acta_nuevo.png)
 
 Los **pasos a seguir** son:
 
@@ -74,7 +74,7 @@ La aplicación nos proporciona información para que sepamos en qué estado se e
 
 Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita el ingreso de la huella digital en el sensor de huellas del celular.
 
-![Solicitud de Huella Dactilar](/img/acta_solicitud-huella.png)
+![Solicitud de Huella Dactilar](/es/latest/img/acta_solicitud-huella.png)
 
 Con sólo tocar el sensor de huellas, es suficiente. Una vez reconocida la huella, el Acta se guarda y es posible visualizarla en el [listado de actas](#pantalla-de-inicio).
 
@@ -90,7 +90,7 @@ Si seleccionamos una fila del listado de actas, podemos acceder a los detalles d
 
 Desde esta pantalla se puede acceder a la [edición de un acta](#editar-un-acta), o podemos anular o quitar la anulación de la misma.
 
-![Detalle de un Acta](/img/acta_detalle.png)
+![Detalle de un Acta](/es/latest/img/acta_detalle.png)
 
 Además podemos ver, en caso de contar con conexión a Internet, las coordenadas del acta sobre un mapa de Google Maps.
 
@@ -104,11 +104,11 @@ Podemos elegir **enviar todas** aquellas actas en estado _Pendiente_ presionando
 
 Una vez enviadas las actas, éstas estarán disponibles para administrar a través de [Mis Actas](/instructivos/mis-actas), y serán visibles para las _Entidades de control_.
 
-![Enviar todas la Actas Pendientes](/img/acta_enviar-todas.png)
+![Enviar todas la Actas Pendientes](/es/latest/img/acta_enviar-todas.png)
 
 *Presionando __Enviar Actas__, serán enviadas todas las actas en estado Pendiente.*
 
-![Seleccionar Actas para enviar](/img/acta_enviar.png)
+![Seleccionar Actas para enviar](/es/latest/img/acta_enviar.png)
 
 *Aquí pueden verse seleccionadas las actas número 2 y 3.*
 
@@ -129,7 +129,7 @@ Esta opción, accesible desde la [pantalla de inicio](#pantalla-de-inicio), perm
 !!! info "Copia de seguridad automática"
 	La aplicación realiza copias de seguridad automáticamente. Con la opción _Copia de seguridad_ podemos realizarla a demanda, en casos que consideremos necesarios; por ejemplo, hemos realizado varias actas, tenemos que seguir trabajando y queremos resguardar las actas ya hechas, o vamos a cambiar de celular y tenemos actas pendientes.
 	
-![Copia de seguridad](/img/acta_backup.png)
+![Copia de seguridad](/es/latest/img/acta_backup.png)
 
 ## Profesional asociado
 

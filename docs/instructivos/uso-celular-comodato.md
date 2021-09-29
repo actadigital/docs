@@ -4,7 +4,7 @@ Los celulares entregados en comodato por las _Entidades de control_ se encuentra
 
 En un funcionamiento normal y correcto del celular, debería ver una pantalla como la siguiente ni bien encendemos y desbloquemos el celular:
 
-![PDM - Inicio](/img/pdm_inicio.png)
+![PDM - Inicio](/es/latest/img/pdm_inicio.png)
 
 ## PIN de desbloqueo 
 
@@ -19,8 +19,8 @@ Este código será solicitado cuando encienda el dispositivo. Los siguientes des
 
 Para ver las redes WiFi disponibles y conectarnos a una de ellas, debemos ingresar a la opción **Conexión WiFi** en el menú de opciones de la pantalla inicial. Al menú accedemos presionando los 3 puntitos de la esquina superior derecha.
 
-![PDM - WiFi](/img/pdm_wifi.png)
+![PDM - WiFi](/es/latest/img/pdm_wifi.png)
 
 Podemos desde aquí **activar o desactivar** el WiFi, y si seleccionamos una de las redes disponibles, podremos conectarnos ingresando la contraseña necesaria.
 
-![PDM - WiFi Redes](/img/pdm_wifi_redes.png)
+![PDM - WiFi Redes](/es/latest/img/pdm_wifi_redes.png)

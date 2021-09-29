@@ -6,13 +6,13 @@ Recorra la tabla de contenidos o utilice la herramienta de búsqueda para encont
 Si la documentación no alcanza, siempre puede encontrarnos en nuestro [correo electrónico](mailto:info@actadigital.com.ar).
 -->
 
-[![Acta Digital](/img/logos/logo.png){: style="width:100%"}](https://actadigital.com.ar)
+[![Acta Digital](/es/latest/img/logos/logo.png){: style="width:100%"}](https://actadigital.com.ar)
 
 **ACTA DIGITAL** es un **Sistema de Certificación Digital de actos**.
 
 Permite que una **_Entidad de Control_** pueda certificar **_quién_**, **_dónde_** y **_cuándo_** realizó un determinado acto.
 
-![Sistema de Vinculación Electrónica - Acta Digital](/img/sistema.png)
+![Sistema de Vinculación Electrónica - Acta Digital](/es/latest/img/sistema.png)
 
 Es decir, el sistema permite **validar** los siguientes datos relacionados a un acto:
 

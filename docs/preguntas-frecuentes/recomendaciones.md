@@ -10,8 +10,8 @@ Para evitar problemas con la toma de coordenadas, sincronización de la fecha y 
 
 Una buena costumbre es contar con un cargador de batería portátil y/o compatible para su vehículo. De esta forma, siempre podrá recargar el dispositivo en campo, en el caso de que se haya quedado sin batería.
 
-![Cargador portátil](/img/cargador_portatil.png "Cargador portátil") *Cargador portátil*
-![Cargador vehículo](/img/cargador_vehiculo.png "Cargador para vehículo") *Cargador para vehículo*
+![Cargador portátil](/es/latest/img/cargador_portatil.png "Cargador portátil") *Cargador portátil*
+![Cargador vehículo](/es/latest/img/cargador_vehiculo.png "Cargador para vehículo") *Cargador para vehículo*
 
 ## Token Biométrico
 
@@ -31,4 +31,4 @@ Si tenemos acceso a Internet podemos, ni bien creada el acta, verficar su ubicac
 
 De este modo podemos observar la ubicación georreferenciada del acta realizada, **comprobando si las coordenadas fueron tomadas correctamente**.
 
-![Ubicación de un Acta](/img/acta_ubicacion.png "Ubicación de un Acta")
+![Ubicación de un Acta](/es/latest/img/acta_ubicacion.png "Ubicación de un Acta")

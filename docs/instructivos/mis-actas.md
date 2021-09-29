@@ -31,7 +31,7 @@ Para cada acta del listado podemos ver:
 
 Las acciones que podemos realizar sobre un acta son las siguientes, en el mismo orden que la imagen:
 
-![Acciones Mis Actas](/img/acciones-mis-actas.png)
+![Acciones Mis Actas](/es/latest/img/acciones-mis-actas.png)
 
 - Ver el [detalle](#detalle-de-un-acta).
 - Acceder a la [edición](#editar-un-acta).
@@ -50,7 +50,7 @@ Si el [control de la ubicación](#control-de-ubicacion) fue realizado con éxito
 - Un marcador con el icono de Acta Digital, ubicando las coordenadas del acta.
 - Un círculo rojo alrededor de la ubicación del acta, indicando la precisión con la cual fueron tomadas las coordenadas.
 
-![Mapa detalle Mis Actas](/img/mis-actas-mapa.png)
+![Mapa detalle Mis Actas](/es/latest/img/mis-actas-mapa.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vSYZ3ppDPPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,7 +83,7 @@ El control de ubicación (o control de calidad), es un proceso automático que r
 El **criterio automático de control** es el siguiente: dado el encuadre de la parcela, tomamos su lado más largo L, y, con centro en el centroide de la parcela, trazamos una circunferencia de radio 2L. Por último el sistema verifica si las coordenadas del acta están dentro de dicha circunferencia o no.
 
 Visualmente se utilizan los siguientes iconos y colores para representar el resultado del control de ubicación: 
-Correcta: ![Correcta](/img/icono-correcto.png) Revisar: ![Revisar](/img/icono-revisar.png)
+Correcta: ![Correcta](/es/latest/img/icono-correcto.png) Revisar: ![Revisar](/es/latest/img/icono-revisar.png)
 
 **Correcta** significa que el acta se encuentra efectivamente en las cercanías de la parcela referenciada por el número de partida.
 
@@ -98,7 +98,7 @@ El indicador de calidad es un número adimensional que **representa la situació
 
 La siguiente imagen representa estos dos datos:
 
-![Indicador de calidad](/img/acta_indicador_calidad.png)
+![Indicador de calidad](/es/latest/img/acta_indicador_calidad.png)
 
 La **lectura** que podemos hacer del indicador de calidad es la siguiente: 
 
