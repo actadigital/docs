@@ -2,7 +2,7 @@
 
 ## ¿Qué relación tenemos con el Colegio de Agrimensores?
 
-Somos **proveedores** de los dispositivos de Acta Digital y del servicio de Soporte Técnico del [Sistema de Acta Digital](/sistema).
+Somos **proveedores** de los dispositivos de Acta Digital y del servicio de Soporte Técnico del [Sistema de Acta Digital](sistema.md).
 
 ## ¿Qué hago si extravío el celular entregado en comodato?
 
@@ -16,21 +16,21 @@ En casos complicados podemos **asistir al GPS con Internet** (por ejemplo compar
 
 Un procedimiento que suele funcionar es **cancelar la creación del acta y volverla a iniciar**.
 
-Puede ocurrir también que la **fecha y hora** del celular se encuentren desconfiguradas. Es importante **verificar** esto antes de salir a realizar los trabajos. Lo podemos resolver conectando el celular a Internet o contactando al [soporte técnico](/acerca/#contacto).
+Puede ocurrir también que la **fecha y hora** del celular se encuentren desconfiguradas. Es importante **verificar** esto antes de salir a realizar los trabajos. Lo podemos resolver conectando el celular a Internet o contactando al [soporte técnico](acerca.md#contacto).
 
 ## ¿Por qué no me llega el PDF del acta al mail?
 
-Para dar solución a esta pregunta sugerimos utilizar la [aplicación web Mis Actas](/instructivos/mis-actas/) y reenviar el PDF utilizando el botón correspondiente en el listado de actas.
+Para dar solución a esta pregunta sugerimos utilizar la [aplicación web Mis Actas](instructivos/mis-actas.md) y reenviar el PDF utilizando el botón correspondiente en el listado de actas.
 
-Es importante mencionar que el acta debe estar en estado Enviada. Si no llegamos a ver el acta en el listado de actas de Mis Actas, contactarse con [soporte técnico](/acerca/#contacto).
+Es importante mencionar que el acta debe estar en estado Enviada. Si no llegamos a ver el acta en el listado de actas de Mis Actas, contactarse con [soporte técnico](acerca.md#contacto).
 
 ## ¿Cómo corrijo los datos de un acta?
 
-Utilizando la [aplicación web Mis Actas](/instructivos/mis-actas/). Desde allí podremos luego reenviar el PDF al mail con los datos corregidos.
+Utilizando la [aplicación web Mis Actas](instructivos/mis-actas.md). Desde allí podremos luego reenviar el PDF al mail con los datos corregidos.
 
 ## No puedo conectarme a mi red WiFi
 
-Consultar la sección [Conexión a redes WiFi](/instructivos/uso-celular-comodato/#conexion-a-redes-wifi). Ante problemas con la conexión podemos intentar **olvidar** la red Wifi. Para eso la seleccionamos y presionamos OLVIDAR. Luego la volvemos a seleccionar y nos volverá a pedir la contraseña. En caso de contiuar el problema y no poder olvidar la red, contactarse con [soporte técnico](/acerca/#contacto).
+Consultar la sección [Conexión a redes WiFi](instructivos/uso-celular-comodato.md#conexion-a-redes-wifi). Ante problemas con la conexión podemos intentar **olvidar** la red Wifi. Para eso la seleccionamos y presionamos OLVIDAR. Luego la volvemos a seleccionar y nos volverá a pedir la contraseña. En caso de contiuar el problema y no poder olvidar la red, contactarse con [soporte técnico](acerca.md#contacto).
 
 ## El token no me lee las huellas
 
