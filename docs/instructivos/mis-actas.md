@@ -104,3 +104,9 @@ La **lectura** que podemos hacer del indicador de calidad es la siguiente:
 
 - un valor **entre 0 y 1** indica que el acta está ubicada dentro de la circunferencia donde **se considera correcta**, por lo tanto el acta está ubicada en las cercanías de la parcela.
 - un valor **mayor que 1** indica que el acta está fuera de dicha circunferencia, por lo tanto **debe realizarse una revisión manual** de la situación.
+
+## Acta Presentada/aceptada
+
+Un acta puede estar o no Presentada. Que un acta esté Presentada siginifica que la _Entidad de control_ ha relacionado dicho acta con un **acto** (p. ej. un acto de levantamiento parcelario). Un acta Presentada no puede asociarse con otro acto y **ya no puede ser editada**. El acta queda archivada.
+
+Muchas actas pueden no estar presentadas/aceptadas debido a que este atributo fue implementado de forma posterior al inicio del funcionamiento del sistema.
