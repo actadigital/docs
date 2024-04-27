@@ -1,45 +1,19 @@
-site_name: Acta Digital
-site_url: https://ayuda.actadigital.com.ar/es/latest/
-theme:
-  name: "material"
-  logo: /es/latest/img/logos/logo-acta-digital.svg
-  favicon: /es/latest/img/logos/logo-acta-digital.svg
-  language: "es"
-  feature:
-    tabs: false
-  font:
-    text: Roboto
-  palette:
-    - scheme: default
-      primary: red
-      accent: yellow
-      toggle:
-        icon: material/weather-sunny
-        name: Cambiar a Modo Oscuro
-    - scheme: slate
-      primary: red
-      accent: yellow
-      toggle:
-        icon: material/weather-night
-        name: Cambiar a Modo Claro
-plugins:
-  - search
-  - minify:
-      minify_html: true
-      minify_js: true
-      htmlmin_opts:
-        remove_comments: true
-nav:
-  - Inicio: index.md
-  - ¿Qué es Acta Digital?: sistema.md
-  - Uso de la aplicación móvil: instructivos/app.md
-  - Editar y controlar actas: instructivos/mis-actas.md
-  - Uso del celular en comodato: instructivos/uso-celular-comodato.md
-  - Preguntas frecuentes: preguntas-frecuentes/preguntas-frecuentes.md
-  - Recomendaciones: preguntas-frecuentes/recomendaciones.md
-  - Acerca de: acerca.md
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - extra
+# Read the Docs configuration file for MkDocs projects
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required
+version: 2
+
+# Set the version of Python and other tools you might need
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.12"
+
+mkdocs:
+  configuration: mkdocs.yml
+
+# Optionally declare the Python requirements required to build your docs
+python:
+  install:
+  - requirements: docs/requirements.txt
