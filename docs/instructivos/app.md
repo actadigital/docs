@@ -135,6 +135,12 @@ Esta opción, accesible desde la [pantalla de inicio](#pantalla-de-inicio), perm
 
 En esta opción, accesible desde la pantalla de inicio, podemos ver los datos del responsable de las actas realizadas. 
 
+### Actualizar datos del usuario
+
+Dentro de la pantalla de Profesional Asociado, si presionamos los 3 puntitos de arriba a la derecha, encontraremos el botón Actualizar datos
+![Actualizar datos del usuario](/es/latest/img/actualizar_datos.png)
+Lo presionamos para actualizar los datos del usuario, como por ejemplo la dirección de correo, o el mecanismo de autenticación.
+
 ## Sincronizar actas
 
 Opción que permite descargar y guardar en el celular todas las actas que hayamos hecho y estén en el sistema. También recupera las actas en estado Pendiente que hayan sido respaldadas en las copias de seguridad.
@@ -146,6 +152,6 @@ La opción de sincronizar actas es útil en casos de cambio de celular o reinsta
 Podemos requerir reinstalar la aplicación en casos de cambio de celular, o falla del mismo. Para evitar perder datos, debemos realizar los siguientes pasos:
 
 - De ser posible, realizar la [copia de seguridad](#copia-de-seguridad) en el celular actualmente en uso.
-- Instalar la aplicación, ya sea en otro celular o nuevamente en el mismo. La podemos encontrar en la tienda oficial.
+- Instalar la aplicación, ya sea en otro celular o nuevamente en el mismo. La podemos encontrar [aquí](https://actadigital.com.ar/#download).
 - [Iniciar sesión](#inicio-de-sesion).
 - Ingresar en la opción [Sincronizar actas](#sincronizar-actas) para descargar nuestras actas al celular.
