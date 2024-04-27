@@ -14,7 +14,7 @@ Cuando abrimos la aplicación por primera vez, debemos iniciar sesión con usuar
 Las _Entidades de control_ son las encargadas de gestionar y distribuir las credenciales de acceso. 
 
 !!! info "Credenciales de acceso"
-	El usuario y contraseña para la aplicación móvil es el mismo que para la aplicación web [Mis Actas](/instructivos/mis-actas).
+	El usuario y contraseña para la aplicación móvil es el mismo que para la aplicación web [Mis Actas](mis-actas.md).
 
 ## Pantalla de inicio
 
@@ -50,7 +50,7 @@ La **ubicación geográfica** (latitud y longitud) es obtenida **automáticament
 
 !!! info "El GPS debe funcionar sin Internet"
     La obtención de coordenadas **debe funcionar** con GPS, sin necesidad de acceso a Internet. De todos modos, la conexión a Internet agiliza y acelera este proceso. 
-	Consultar las siguientes [recomendaciones](/preguntas-frecuentes/recomendaciones/).
+	Consultar las siguientes [recomendaciones](../recomendaciones.md).
 
 ### Controlar los datos de ubicación
 
@@ -102,7 +102,7 @@ Podemos elegir **enviar todas** aquellas actas en estado _Pendiente_ presionando
 !!! info "Importante"
 	Para realizar el envío de actas es necesario que el celular este conectado a **Internet**.
 
-Una vez enviadas las actas, éstas estarán disponibles para administrar a través de [Mis Actas](/instructivos/mis-actas), y serán visibles para las _Entidades de control_.
+Una vez enviadas las actas, éstas estarán disponibles para administrar a través de [Mis Actas](mis-actas.md), y serán visibles para las _Entidades de control_.
 
 ![Enviar todas la Actas Pendientes](/es/latest/img/acta_enviar-todas.png)
 
