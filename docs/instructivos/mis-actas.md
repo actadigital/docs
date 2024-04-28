@@ -2,7 +2,7 @@
 
 ## Acceso e inicio de sesión
 
-Para acceder a la aplicación web debemos ingresar al [sitio web de Acta Digital](https://actadigital.com.ar/), ingresar en la opción USUARIOS y luego presionar el botón MIS ACTAS.
+Puede acceder a la aplicación web de control de actas haciendo [clic aquí](https://control.actadigital.com.ar/).
 
 La aplicación **Mis Actas** solicitará que ingresemos usuario y contraseña.
 Las _Entidades de control_ son las encargadas de gestionar y distribuir las credenciales de acceso.
