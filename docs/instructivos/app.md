@@ -137,9 +137,9 @@ En esta opción, accesible desde la pantalla de inicio, podemos ver los datos de
 
 ### Actualizar datos del usuario
 
-Dentro de la pantalla de Profesional Asociado, si presionamos los 3 puntitos de arriba a la derecha, encontraremos el botón Actualizar datos
+Dentro de la pantalla de Profesional asociado, si presionamos los 3 puntitos de arriba a la derecha, encontraremos el botón Actualizar datos.
 ![Actualizar datos del usuario](/es/latest/img/actualizar_datos.png)
-Lo presionamos para actualizar los datos del usuario, como por ejemplo la dirección de correo, o el mecanismo de autenticación.
+Presionando este botón, la aplicación vuelve a descargar los datos el usuario. Previamente se debe solicitar al equipo de soporte que modifique los datos. También el equipo de soporte puede solicitar eventualmente que presione este botón. 
 
 ## Sincronizar actas
 
