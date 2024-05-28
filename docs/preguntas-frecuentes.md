@@ -16,7 +16,11 @@ En casos complicados podemos **asistir al GPS con Internet** (por ejemplo compar
 
 Un procedimiento que suele funcionar es **cancelar la creación del acta y volverla a iniciar**.
 
-Puede ocurrir también que la **fecha y hora** del celular se encuentren desconfiguradas. Es importante **verificar** esto antes de salir a realizar los trabajos. Lo podemos resolver conectando el celular a Internet o contactando al [soporte técnico](acerca.md#contacto).
+Puede ocurrir también que la **fecha y hora** del celular se encuentren desconfiguradas. Este problema se evidencia, por lo general, cuando la aplicación nos muestra satélites: 0 al momento de crear actas. Es importante **verificar** frecuentemente que la fecha y hora sean correctos. Lo podemos resolver conectando el celular a Internet o contactando al [soporte técnico](acerca.md#contacto).
+
+## ¿Por qué veo 0 satélites y asimismo obtengo coordenadas?
+
+Esto ocurre debido a que los celulares tienen capacidad de utilizar GPS asistido por internet, generando que podamos obtener coordenadas correctas sin necesidad de establecer comunicación con los satélites.
 
 ## ¿Por qué no me llega el PDF del acta al mail?
 

@@ -57,8 +57,9 @@ La **ubicación geográfica** (latitud y longitud) es obtenida **automáticament
 La aplicación nos proporciona información para que sepamos en qué estado se encuentra el proceso de toma de coordenadas. En la imagen de Nuevo Acta, podemos ver:
 
 - **Tiempo transcurrido**: Indica el tiempo transcurrido desde el inicio de la toma de coordeandas.
-- **Satélites**: Muestra el número de satélites que están siendo utilizados para fijar las coordenadas. Si, por ejemplo, vemos **0/10**, significa que se están utilizando 0 satélites de 10 visibles, y no estamos obteniendo coordenadas del sistema GPS. Debemos buscar un sitio más despejado. Si por ejemplo vemos **1/10**, o 2, es posible que tengamos mal la fecha y hora del celular, no pudiendo establecer comunicación con los satélites. Un **caso normal de funcionamiento** es ver 4/12, 10/20.
-- **Precisión**: De las coordeandas. Mejora con el paso de los minutos. Utilizando sólo sistema GPS podremos ver 4 o 6 metros. Asistiendo al GPS con Internet la precisión suele empeorar, siendo típicamente 20 u 80 metros.
+- **Satélites**: Muestra el número de satélites utilizados para fijar las coordenadas. 
+En caso de trabajar _sin internet_, este dato es muy importante. Si, por ejemplo, vemos **0/10**, significa que se están utilizando 0 satélites de 10 visibles. Debemos buscar un sitio más despejado. En caso de trabajar _con internet_, el número de satélites puede permanecer en **0** y asimismo obtendremos coordenadas exitosamente.
+- **Precisión**: Muestra el valor en metros de la precisión de las coordeandas. Mejora con el paso de los minutos. Utilizando sólo sistema GPS podremos ver 4 o 6 metros. Asistiendo al GPS con Internet la precisión puede ser menor, p. ej. 80 metros. 
 - **Coordenadas**: Se intentan obtener cada 5 o 10 segundos. Se van ajustando con el pasar de los minutos.
 
 **Antes de guardar un acta debemos controlar**:
@@ -70,7 +71,7 @@ La aplicación nos proporciona información para que sepamos en qué estado se e
 !!! info "Importante"
     La coordenadas guardadas son aquellaa que se obtienen al momento de presionar Guardar Acta. Por lo tanto es importante **guardar** el Acta _en las cercanías_ del lugar del acto.
 
-### Guardar acta - Celular en comodato - Lector embebido
+### Guardar acta - Lector embebido
 
 Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita el ingreso de la huella digital en el sensor de huellas del celular.
 
@@ -83,6 +84,27 @@ Con sólo tocar el sensor de huellas, es suficiente. Una vez reconocida la huell
 Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita que conectemos nuestro Token biométrico USB. Mientras tanto veremos el mensaje _Esperando hardware_. 
 
 Una vez conectado el token, la aplicación solicita el ingreso de alguna huella digital. Presionamos el sensor del token y el acta se guarda.
+
+### Guardar acta - Reconocimiento facial
+
+Si los datos ingresados son válidos, al presionar **Guardar Acta**, la aplicación solicita que abramos la cámara frontal.
+
+![Solicitud de Abrir Cámara](/es/latest/img/acta_face-camara.png)
+
+Una vez abierta la cámara, debemos ubicar el rostro en el óvalo dibujado.
+
+![Ubicar rostro](/es/latest/img/acta_face-paso1.png)
+
+Si el rostro es reconocido, es decir, si coincide con el rostro registrado, veremos un óvalo verde, y escucharemos un sonido.
+Luego debemos seguir los pasos indicados por la aplicación. La aplicación requiere que realicemos dos gestos.
+
+**Importante**: El gesto solicitado debe mantenerse por unos segundos, hasta que la barra de progreso avance, o escuchar un sonido.
+
+![Gestos rostros](/es/latest/img/acta_face-paso2.png)
+
+Al finalizar los dos pasos, la aplicación nos mostrará un mensaje emergente indicando que la autenticación ha sido exitosa. 
+
+Si se nos acaba el tiempo disponible, podremos reintentar.
 
 ## Detalles de un acta
 
